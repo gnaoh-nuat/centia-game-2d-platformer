@@ -23,9 +23,10 @@ public class PlayerController : MonoBehaviour
     public float DashCooldown = 1f;
 
     [Header("Ground Check Settings")]
-    [SerializeField] private Transform _groundCheckPoint;
-    [SerializeField] private Vector2 _groundCheckSize = new Vector2(0.5f, 0.1f); // Width and height of the ground check box
+    [SerializeField] private BoxCollider2D _playerCollider;
     [SerializeField] private LayerMask _groundLayer;
+    [SerializeField] private float _groundCheckDistance = 0.05f;
+    [SerializeField] private float _groundCheckWidthScale = 0.9f;
 
     // State Machine
     public PlayerStateMachine StateMachine { get; private set; }
@@ -111,7 +112,21 @@ public class PlayerController : MonoBehaviour
 
     public bool IsGrounded()
     {
-        return Physics2D.OverlapBox(_groundCheckPoint.position, _groundCheckSize, 0f, _groundLayer) != null;
+        Bounds bounds = _playerCollider.bounds;
+
+        Vector2 boxSize = new Vector2(bounds.size.x * _groundCheckWidthScale, 0.1f);
+
+        // Perform BoxCast downwards to check for ground
+        RaycastHit2D hit = Physics2D.BoxCast(
+            bounds.center, 
+            boxSize, 
+            0f,
+            Vector2.down,
+            (bounds.size.y / 2) + _groundCheckDistance, 
+            _groundLayer
+        );
+
+        return hit.collider != null;
     }
 
     public bool CanDash()
@@ -120,12 +135,18 @@ public class PlayerController : MonoBehaviour
     }
 
     // Visualize ground check in editor
-    private void OnDrawGizmosSelected()
+    private void OnDrawGizmos()
     {
-        if (_groundCheckPoint != null)
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireCube(_groundCheckPoint.position, _groundCheckSize);
-        }
+        if (_playerCollider == null) return;
+
+        Bounds bounds = _playerCollider.bounds;
+
+        Vector2 boxSize = new Vector2(bounds.size.x * _groundCheckWidthScale, 0.1f);
+
+        float yOffset = (bounds.size.y / 2) + _groundCheckDistance;
+        Vector2 centerPoint = new Vector2(bounds.center.x, bounds.center.y - yOffset);
+
+        Gizmos.color = IsGrounded() ? Color.green : Color.red; // Green if grounded, red if not
+        Gizmos.DrawWireCube(centerPoint, boxSize);
     }
 }
