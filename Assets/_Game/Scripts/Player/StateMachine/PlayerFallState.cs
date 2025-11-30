@@ -12,6 +12,8 @@ public class PlayerFallState : PlayerState
 
         inputReader.JumpEvent += OnAirJump;
         inputReader.DashEvent += OnDashPressed;
+
+        player.PlayAnimation(player.AnimID_Fall);
     }
 
     public override void Exit()
@@ -38,6 +40,7 @@ public class PlayerFallState : PlayerState
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
+
         player.SetVelocityX(player.MoveInput.x * player.MoveSpeed);
 
         if (player.Rigidbody2D.linearVelocity.y < -20f)

@@ -24,6 +24,8 @@ public class PlayerJumpState : PlayerState
         inputReader.JumpCanceledEvent += OnJumpCanceled;
         inputReader.JumpEvent += OnAirJump;
         inputReader.DashEvent += OnDashPressed;
+
+        player.PlayAnimation(player.AnimID_Jump);
     }
 
     public override void Exit()

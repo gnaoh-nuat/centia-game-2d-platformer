@@ -15,6 +15,8 @@ public class PlayerMoveState : PlayerState
 
         inputReader.JumpEvent += OnJumpPressed;
         inputReader.DashEvent += OnDashPressed;
+
+        player.PlayAnimation(player.AnimID_Run);
     }
 
     public override void Exit()

@@ -11,11 +11,12 @@ public class PlayerIdleState : PlayerState
         base.Enter();
         //Debug.Log("Entered Idle State");
         player.SetVelocityX(0);
-
         player.ResetJumpCounter();
 
         inputReader.JumpEvent += OnJumpPressed;
         inputReader.DashEvent += OnDashPressed;
+
+        player.PlayAnimation(player.AnimID_Idle);
     }
 
     public override void Exit()

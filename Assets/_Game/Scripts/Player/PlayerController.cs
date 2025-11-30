@@ -5,7 +5,14 @@ public class PlayerController : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private InputReader _inputReader;
+    [SerializeField] private Animator _animator;
     public Rigidbody2D Rigidbody2D { get; private set; }
+
+    public int AnimID_Idle { get; private set; }
+    public int AnimID_Run { get; private set; }
+    public int AnimID_Jump { get; private set; }
+    public int AnimID_Fall { get; private set; }
+
 
     [Header("Movement Settings")]
     public float MoveSpeed = 5f;
@@ -45,6 +52,12 @@ public class PlayerController : MonoBehaviour
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
 
+        // Initialize Animation IDs
+        AnimID_Idle = Animator.StringToHash("Idle");
+        AnimID_Run = Animator.StringToHash("Run");
+        AnimID_Jump = Animator.StringToHash("Jump");
+        AnimID_Fall = Animator.StringToHash("Fall");
+
         // Initialize State Machine and States
         StateMachine = new PlayerStateMachine();
         IdleState = new PlayerIdleState(this, StateMachine, _inputReader);
@@ -79,7 +92,7 @@ public class PlayerController : MonoBehaviour
         StateMachine.CurrentState.PhysicsUpdate();
     }
 
-    // Handle move input from InputReader
+    // Handle movement input
     private void HandledMoveInput(Vector2 input)
     {
         MoveInput = input;
@@ -87,6 +100,7 @@ public class PlayerController : MonoBehaviour
         if (input.x != 0)
         {
             FacingDirection = input.x > 0 ? 1 : -1;
+            transform.localScale = new Vector3(FacingDirection, 1, 1);
         }
     }
 
@@ -108,6 +122,11 @@ public class PlayerController : MonoBehaviour
     public void ResetDashCooldown()
     {
         _dashReadyTime = Time.time + DashCooldown;
+    }
+
+    public void PlayAnimation(int animID)
+    {
+        _animator.CrossFade(animID, 0f);
     }
 
     public bool IsGrounded()
