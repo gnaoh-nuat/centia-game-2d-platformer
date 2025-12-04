@@ -163,7 +163,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -177,7 +177,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -242,12 +242,12 @@ TextureImporter:
       name: Forest-Props_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 255
-        width: 10
-        height: 7
+        x: 8
+        y: 256
+        width: 8
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -264,12 +264,12 @@ TextureImporter:
       name: Forest-Props_1
       rect:
         serializedVersion: 2
-        x: 24
-        y: 255
-        width: 8
-        height: 10
+        x: 25
+        y: 256
+        width: 6
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -286,12 +286,12 @@ TextureImporter:
       name: Forest-Props_2
       rect:
         serializedVersion: 2
-        x: 39
-        y: 255
-        width: 17
-        height: 8
+        x: 40
+        y: 256
+        width: 15
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -308,12 +308,12 @@ TextureImporter:
       name: Forest-Props_3
       rect:
         serializedVersion: 2
-        x: 63
-        y: 255
-        width: 10
-        height: 7
+        x: 64
+        y: 256
+        width: 8
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -330,12 +330,12 @@ TextureImporter:
       name: Forest-Props_4
       rect:
         serializedVersion: 2
-        x: 80
-        y: 255
-        width: 8
-        height: 10
+        x: 81
+        y: 256
+        width: 6
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -352,12 +352,12 @@ TextureImporter:
       name: Forest-Props_5
       rect:
         serializedVersion: 2
-        x: 95
-        y: 255
-        width: 17
-        height: 8
+        x: 96
+        y: 256
+        width: 15
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -379,7 +379,7 @@ TextureImporter:
         width: 10
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -396,12 +396,12 @@ TextureImporter:
       name: Forest-Props_7
       rect:
         serializedVersion: 2
-        x: 7
-        y: 239
-        width: 16
-        height: 6
+        x: 8
+        y: 240
+        width: 14
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -418,12 +418,12 @@ TextureImporter:
       name: Forest-Props_8
       rect:
         serializedVersion: 2
-        x: 32
-        y: 239
-        width: 9
-        height: 10
+        x: 33
+        y: 240
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -440,12 +440,12 @@ TextureImporter:
       name: Forest-Props_9
       rect:
         serializedVersion: 2
-        x: 47
-        y: 239
-        width: 10
-        height: 10
+        x: 48
+        y: 240
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -462,12 +462,12 @@ TextureImporter:
       name: Forest-Props_10
       rect:
         serializedVersion: 2
-        x: 63
-        y: 239
-        width: 16
-        height: 6
+        x: 64
+        y: 240
+        width: 14
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -484,12 +484,12 @@ TextureImporter:
       name: Forest-Props_11
       rect:
         serializedVersion: 2
-        x: 88
-        y: 239
-        width: 9
-        height: 10
+        x: 89
+        y: 240
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -506,12 +506,12 @@ TextureImporter:
       name: Forest-Props_12
       rect:
         serializedVersion: 2
-        x: 103
-        y: 239
-        width: 10
-        height: 10
+        x: 104
+        y: 240
+        width: 8
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -528,12 +528,12 @@ TextureImporter:
       name: Forest-Props_13
       rect:
         serializedVersion: 2
-        x: 8
-        y: 215
-        width: 16
-        height: 17
+        x: 9
+        y: 216
+        width: 14
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -550,12 +550,12 @@ TextureImporter:
       name: Forest-Props_14
       rect:
         serializedVersion: 2
-        x: 31
-        y: 215
-        width: 25
-        height: 18
+        x: 32
+        y: 216
+        width: 23
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -572,12 +572,12 @@ TextureImporter:
       name: Forest-Props_15
       rect:
         serializedVersion: 2
-        x: 64
-        y: 215
-        width: 16
-        height: 17
+        x: 65
+        y: 216
+        width: 14
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -594,12 +594,12 @@ TextureImporter:
       name: Forest-Props_16
       rect:
         serializedVersion: 2
-        x: 87
-        y: 215
-        width: 47
-        height: 18
+        x: 88
+        y: 216
+        width: 23
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -617,11 +617,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 7
-        y: 183
-        width: 64
-        height: 29
+        y: 184
+        width: 23
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -638,12 +638,12 @@ TextureImporter:
       name: Forest-Props_18
       rect:
         serializedVersion: 2
-        x: 65
-        y: 199
-        width: 7
-        height: 7
+        x: 66
+        y: 200
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -660,12 +660,12 @@ TextureImporter:
       name: Forest-Props_19
       rect:
         serializedVersion: 2
-        x: 83
-        y: 183
-        width: 21
-        height: 18
+        x: 84
+        y: 184
+        width: 3
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -682,12 +682,12 @@ TextureImporter:
       name: Forest-Props_20
       rect:
         serializedVersion: 2
-        x: 7
-        y: 167
-        width: 18
-        height: 10
+        x: 8
+        y: 168
+        width: 16
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -704,12 +704,12 @@ TextureImporter:
       name: Forest-Props_21
       rect:
         serializedVersion: 2
-        x: 31
-        y: 167
-        width: 10
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 168
+        width: 8
+        height: 4
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -726,12 +726,12 @@ TextureImporter:
       name: Forest-Props_22
       rect:
         serializedVersion: 2
-        x: 49
-        y: 167
-        width: 6
-        height: 6
+        x: 50
+        y: 168
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -749,11 +749,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 151
-        width: 40
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 168
+        width: 7
+        height: 3
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -770,12 +770,12 @@ TextureImporter:
       name: Forest-Props_24
       rect:
         serializedVersion: 2
-        x: 7
-        y: 151
-        width: 18
-        height: 10
+        x: 8
+        y: 152
+        width: 16
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -792,12 +792,12 @@ TextureImporter:
       name: Forest-Props_25
       rect:
         serializedVersion: 2
-        x: 31
-        y: 151
-        width: 10
-        height: 6
+        x: 32
+        y: 152
+        width: 8
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -814,12 +814,12 @@ TextureImporter:
       name: Forest-Props_26
       rect:
         serializedVersion: 2
-        x: 49
-        y: 151
-        width: 6
-        height: 7
+        x: 50
+        y: 152
+        width: 4
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -836,12 +836,12 @@ TextureImporter:
       name: Forest-Props_27
       rect:
         serializedVersion: 2
-        x: 7
-        y: 119
-        width: 17
-        height: 18
+        x: 8
+        y: 120
+        width: 15
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -858,12 +858,12 @@ TextureImporter:
       name: Forest-Props_28
       rect:
         serializedVersion: 2
-        x: 40
-        y: 119
-        width: 16
-        height: 26
+        x: 41
+        y: 120
+        width: 14
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -880,12 +880,12 @@ TextureImporter:
       name: Forest-Props_29
       rect:
         serializedVersion: 2
-        x: 74
-        y: 119
-        width: 12
-        height: 18
+        x: 75
+        y: 120
+        width: 10
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -902,12 +902,12 @@ TextureImporter:
       name: Forest-Props_30
       rect:
         serializedVersion: 2
-        x: 104
-        y: 119
-        width: 15
-        height: 18
+        x: 105
+        y: 120
+        width: 13
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -924,12 +924,12 @@ TextureImporter:
       name: Forest-Props_31
       rect:
         serializedVersion: 2
-        x: 7
-        y: 87
-        width: 17
-        height: 18
+        x: 8
+        y: 88
+        width: 15
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -946,12 +946,12 @@ TextureImporter:
       name: Forest-Props_32
       rect:
         serializedVersion: 2
-        x: 40
-        y: 87
-        width: 16
-        height: 27
+        x: 41
+        y: 88
+        width: 14
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -968,12 +968,12 @@ TextureImporter:
       name: Forest-Props_33
       rect:
         serializedVersion: 2
-        x: 73
-        y: 87
-        width: 12
-        height: 18
+        x: 74
+        y: 88
+        width: 10
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -990,12 +990,12 @@ TextureImporter:
       name: Forest-Props_34
       rect:
         serializedVersion: 2
-        x: 107
-        y: 87
-        width: 12
-        height: 18
+        x: 108
+        y: 88
+        width: 10
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1012,12 +1012,12 @@ TextureImporter:
       name: Forest-Props_35
       rect:
         serializedVersion: 2
-        x: 8
-        y: 47
-        width: 32
-        height: 34
+        x: 9
+        y: 48
+        width: 30
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1034,12 +1034,12 @@ TextureImporter:
       name: Forest-Props_36
       rect:
         serializedVersion: 2
-        x: 47
-        y: 47
-        width: 33
-        height: 34
+        x: 48
+        y: 48
+        width: 31
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1056,12 +1056,12 @@ TextureImporter:
       name: Forest-Props_37
       rect:
         serializedVersion: 2
-        x: 88
-        y: 47
-        width: 32
-        height: 25
+        x: 89
+        y: 48
+        width: 30
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1078,12 +1078,12 @@ TextureImporter:
       name: Forest-Props_38
       rect:
         serializedVersion: 2
-        x: 128
-        y: 47
-        width: 32
-        height: 25
+        x: 129
+        y: 48
+        width: 30
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1100,12 +1100,12 @@ TextureImporter:
       name: Forest-Props_39
       rect:
         serializedVersion: 2
-        x: 8
-        y: 7
-        width: 32
-        height: 34
+        x: 9
+        y: 8
+        width: 30
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1122,12 +1122,12 @@ TextureImporter:
       name: Forest-Props_40
       rect:
         serializedVersion: 2
-        x: 48
-        y: 7
-        width: 33
-        height: 34
+        x: 49
+        y: 8
+        width: 31
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1144,12 +1144,12 @@ TextureImporter:
       name: Forest-Props_41
       rect:
         serializedVersion: 2
-        x: 88
-        y: 7
-        width: 32
-        height: 25
+        x: 89
+        y: 8
+        width: 30
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1166,12 +1166,12 @@ TextureImporter:
       name: Forest-Props_42
       rect:
         serializedVersion: 2
-        x: 128
-        y: 7
-        width: 32
-        height: 25
+        x: 129
+        y: 8
+        width: 30
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1184,11 +1184,165 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Forest-Props_43
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 184
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db3bf9b39c51874d9027d0a1dd616b8
+      internalID: 321832629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Props_44
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 184
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17e9bff1dbbe654ab0fbbfae94b8ca4
+      internalID: -1768440089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Props_45
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 184
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c82fe8670e86104295eea56b6010487
+      internalID: -2007264825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Props_46
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 152
+        width: 3
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee567578d9e8d64f9604e51ba120b47
+      internalID: -1321335021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Props_47
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 168
+        width: 5
+        height: 4
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f4b9e16a3f2044890973e35925871b
+      internalID: -1029875012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Props_48
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 152
+        width: 7
+        height: 4
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d04e2f44a339047a662374464116b7
+      internalID: -147245639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest-Props_49
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 160
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cdbacf8e598334cbc9f1ca142ed410
+      internalID: -752477573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8e913a145f9390a43833120cf67a76ed
     internalID: 0
     vertices: []
     indices: 
@@ -1197,7 +1351,57 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Forest-Props_0: 5681298786988155714
+      Forest-Props_1: 4975849908371301404
+      Forest-Props_10: -334628502246822013
+      Forest-Props_11: 6047917832568897775
+      Forest-Props_12: -7723516138613727919
+      Forest-Props_13: 6334609043163157579
+      Forest-Props_14: -7921090913737898898
+      Forest-Props_15: -6545898379651844810
+      Forest-Props_16: -8607160739824952250
+      Forest-Props_17: 736418368730084809
+      Forest-Props_18: 7967345115923823806
+      Forest-Props_19: -3822998064158817680
+      Forest-Props_2: 3581865118998767545
+      Forest-Props_20: 3366276930431289240
+      Forest-Props_21: -8720693121853794441
+      Forest-Props_22: -6394772704487705510
+      Forest-Props_23: -1795114776525121072
+      Forest-Props_24: -2170701574745086876
+      Forest-Props_25: 5819082863750485494
+      Forest-Props_26: 7767820203499606188
+      Forest-Props_27: 8012789777546826976
+      Forest-Props_28: -267880463632794498
+      Forest-Props_29: 3601637553073906764
+      Forest-Props_3: -6421706309384660673
+      Forest-Props_30: 7354903017857229863
+      Forest-Props_31: 5403243784220789573
+      Forest-Props_32: -3971852447481109149
+      Forest-Props_33: -6068228970644408407
+      Forest-Props_34: -6022282933637938307
+      Forest-Props_35: -8789922756853246855
+      Forest-Props_36: -6771055072248656403
+      Forest-Props_37: -243353737404759994
+      Forest-Props_38: 4497592046450051278
+      Forest-Props_39: 6772146507776989373
+      Forest-Props_4: 2230220103139071396
+      Forest-Props_40: -4471766972906613183
+      Forest-Props_41: 2072605613787212708
+      Forest-Props_42: 8501044037192059040
+      Forest-Props_43: 321832629
+      Forest-Props_44: -1768440089
+      Forest-Props_45: -2007264825
+      Forest-Props_46: -1321335021
+      Forest-Props_47: -1029875012
+      Forest-Props_48: -147245639
+      Forest-Props_49: -752477573
+      Forest-Props_5: -832711065345567234
+      Forest-Props_6: -7526153419130002585
+      Forest-Props_7: -6894118220423287438
+      Forest-Props_8: -4355404264763973696
+      Forest-Props_9: -1932648003730933033
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
