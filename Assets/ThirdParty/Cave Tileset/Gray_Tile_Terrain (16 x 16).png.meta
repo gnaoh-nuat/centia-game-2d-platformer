@@ -268,6 +268,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1472,7 +1485,61 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Gray_Tile_Terrain (16 x 16)_0: 8317717166806244938
+      Gray_Tile_Terrain (16 x 16)_1: 8990688085264478279
+      Gray_Tile_Terrain (16 x 16)_10: 5760496710949258608
+      Gray_Tile_Terrain (16 x 16)_11: -2117817227365779774
+      Gray_Tile_Terrain (16 x 16)_12: -7723657254690603166
+      Gray_Tile_Terrain (16 x 16)_13: 5162751403771456031
+      Gray_Tile_Terrain (16 x 16)_14: -8604071523700948224
+      Gray_Tile_Terrain (16 x 16)_15: -2212997171175319586
+      Gray_Tile_Terrain (16 x 16)_16: -1202527619449040439
+      Gray_Tile_Terrain (16 x 16)_17: -8253337810757422432
+      Gray_Tile_Terrain (16 x 16)_18: -7975154082654201618
+      Gray_Tile_Terrain (16 x 16)_19: 7424055369246018592
+      Gray_Tile_Terrain (16 x 16)_2: 9222274280117537909
+      Gray_Tile_Terrain (16 x 16)_20: -4845497702588743588
+      Gray_Tile_Terrain (16 x 16)_21: 3072422818344615382
+      Gray_Tile_Terrain (16 x 16)_22: -8326030874950460977
+      Gray_Tile_Terrain (16 x 16)_23: -3155061673126518157
+      Gray_Tile_Terrain (16 x 16)_24: 472240949791741413
+      Gray_Tile_Terrain (16 x 16)_25: 4005506691381138540
+      Gray_Tile_Terrain (16 x 16)_26: -814845711123591956
+      Gray_Tile_Terrain (16 x 16)_27: -1818289305411803218
+      Gray_Tile_Terrain (16 x 16)_28: 8208919501038455246
+      Gray_Tile_Terrain (16 x 16)_29: 5789780704307164176
+      Gray_Tile_Terrain (16 x 16)_3: 8209935067911543182
+      Gray_Tile_Terrain (16 x 16)_30: -2793598846786916399
+      Gray_Tile_Terrain (16 x 16)_31: 780068647837230894
+      Gray_Tile_Terrain (16 x 16)_32: 2101654286145282688
+      Gray_Tile_Terrain (16 x 16)_33: -4298833067997408979
+      Gray_Tile_Terrain (16 x 16)_34: -2471078284512955736
+      Gray_Tile_Terrain (16 x 16)_35: 6195018693836571383
+      Gray_Tile_Terrain (16 x 16)_36: -3858486962724983914
+      Gray_Tile_Terrain (16 x 16)_37: 8211957901420860311
+      Gray_Tile_Terrain (16 x 16)_38: -5134985741922309023
+      Gray_Tile_Terrain (16 x 16)_39: -1759956630949872185
+      Gray_Tile_Terrain (16 x 16)_4: 6867985338287394467
+      Gray_Tile_Terrain (16 x 16)_40: -1791878868793852653
+      Gray_Tile_Terrain (16 x 16)_41: 2358167362977451097
+      Gray_Tile_Terrain (16 x 16)_42: -8150942093635460808
+      Gray_Tile_Terrain (16 x 16)_43: 2480216528001782534
+      Gray_Tile_Terrain (16 x 16)_44: 5908496433565460096
+      Gray_Tile_Terrain (16 x 16)_45: 5969783517115374308
+      Gray_Tile_Terrain (16 x 16)_46: 1542276641522890447
+      Gray_Tile_Terrain (16 x 16)_47: -7198427351020920010
+      Gray_Tile_Terrain (16 x 16)_48: 132724755382401790
+      Gray_Tile_Terrain (16 x 16)_49: 3602142282051566829
+      Gray_Tile_Terrain (16 x 16)_5: -3388874499915658893
+      Gray_Tile_Terrain (16 x 16)_50: -4445189830413479422
+      Gray_Tile_Terrain (16 x 16)_51: 3851104120261399902
+      Gray_Tile_Terrain (16 x 16)_52: 2941340694735254653
+      Gray_Tile_Terrain (16 x 16)_53: -8913461235792973488
+      Gray_Tile_Terrain (16 x 16)_6: -4544958913833608820
+      Gray_Tile_Terrain (16 x 16)_7: 2649590749098963992
+      Gray_Tile_Terrain (16 x 16)_8: 4909428690104615744
+      Gray_Tile_Terrain (16 x 16)_9: 3738574247008702589
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

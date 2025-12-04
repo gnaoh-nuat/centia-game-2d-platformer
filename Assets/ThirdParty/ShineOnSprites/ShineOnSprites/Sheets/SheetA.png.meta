@@ -223,6 +223,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1097,7 +1110,46 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SheetA_0: 3553194794068554835
+      SheetA_1: -1125550155728383874
+      SheetA_10: 3689229699841435394
+      SheetA_11: 4007986538623461624
+      SheetA_12: -1955470247382533913
+      SheetA_13: -5215038284970276422
+      SheetA_14: 5694018679167977361
+      SheetA_15: 6613258615039627944
+      SheetA_16: 8264023112897691404
+      SheetA_17: 6432707047129474063
+      SheetA_18: -8010493257058192464
+      SheetA_19: 571981121678474672
+      SheetA_2: 3562335637462153380
+      SheetA_20: -8584210796799010733
+      SheetA_21: 7811155575174141736
+      SheetA_22: -5326311169960174914
+      SheetA_23: 1387849140764059233
+      SheetA_24: -458852615206537363
+      SheetA_25: 6927204105761845938
+      SheetA_26: -7705648722417408876
+      SheetA_27: 3230908621578775670
+      SheetA_28: -1518397585762010496
+      SheetA_29: 920022032465691604
+      SheetA_3: -5568129873435487008
+      SheetA_30: 8496002312258239818
+      SheetA_31: 828737097655114137
+      SheetA_32: 5150190821530263001
+      SheetA_33: 2055210213560679723
+      SheetA_34: 4017276897587621561
+      SheetA_35: 8260795541797388261
+      SheetA_36: 2516308597046181511
+      SheetA_37: -7498582020232646360
+      SheetA_38: 5615067745982261280
+      SheetA_4: -279481265532317731
+      SheetA_5: 2374998517148881567
+      SheetA_6: 4483534137424186975
+      SheetA_7: -1075183320763974569
+      SheetA_8: -7229832847767991438
+      SheetA_9: -55136593972902973
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
