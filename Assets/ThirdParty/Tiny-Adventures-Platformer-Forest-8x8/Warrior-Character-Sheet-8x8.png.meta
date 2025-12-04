@@ -286,6 +286,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1622,7 +1635,67 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Warrior-Character-Sheet-8x8_0: 312762170853027103
+      Warrior-Character-Sheet-8x8_1: -2876055568639914981
+      Warrior-Character-Sheet-8x8_10: 8018140798632670702
+      Warrior-Character-Sheet-8x8_11: -6785470628901107381
+      Warrior-Character-Sheet-8x8_12: -2864962014926077509
+      Warrior-Character-Sheet-8x8_13: 4265627039046100661
+      Warrior-Character-Sheet-8x8_14: -434044426503397010
+      Warrior-Character-Sheet-8x8_15: 7754334735187852753
+      Warrior-Character-Sheet-8x8_16: 470310713395580
+      Warrior-Character-Sheet-8x8_17: 1163373403642798974
+      Warrior-Character-Sheet-8x8_18: 4581376764665896191
+      Warrior-Character-Sheet-8x8_19: -5285887447157910102
+      Warrior-Character-Sheet-8x8_2: -2639782678329945652
+      Warrior-Character-Sheet-8x8_20: 126206801627919561
+      Warrior-Character-Sheet-8x8_21: 7602533595082177784
+      Warrior-Character-Sheet-8x8_22: -995060126694695250
+      Warrior-Character-Sheet-8x8_23: -1799392098131494748
+      Warrior-Character-Sheet-8x8_24: -6171843204306870764
+      Warrior-Character-Sheet-8x8_25: -5566640741490990170
+      Warrior-Character-Sheet-8x8_26: 4881379083321811059
+      Warrior-Character-Sheet-8x8_27: 2183311067347239084
+      Warrior-Character-Sheet-8x8_28: -4707299136979081058
+      Warrior-Character-Sheet-8x8_29: 8340647252253126560
+      Warrior-Character-Sheet-8x8_3: 2776382601031131225
+      Warrior-Character-Sheet-8x8_30: 8242490034002668738
+      Warrior-Character-Sheet-8x8_31: 4870990603839470935
+      Warrior-Character-Sheet-8x8_32: -7754747362720649329
+      Warrior-Character-Sheet-8x8_33: -676491943901953783
+      Warrior-Character-Sheet-8x8_34: 4270861817092818110
+      Warrior-Character-Sheet-8x8_35: -57009458227149316
+      Warrior-Character-Sheet-8x8_36: 3683764684285483197
+      Warrior-Character-Sheet-8x8_37: -1492774052153556870
+      Warrior-Character-Sheet-8x8_38: 855389452318197748
+      Warrior-Character-Sheet-8x8_39: 6548283276744849274
+      Warrior-Character-Sheet-8x8_4: -2733262272924429164
+      Warrior-Character-Sheet-8x8_40: -7229701471558402595
+      Warrior-Character-Sheet-8x8_41: 6388263106933418588
+      Warrior-Character-Sheet-8x8_42: 820832946562430555
+      Warrior-Character-Sheet-8x8_43: -647909375874666760
+      Warrior-Character-Sheet-8x8_44: 3558185922646624709
+      Warrior-Character-Sheet-8x8_45: 9159275564338837766
+      Warrior-Character-Sheet-8x8_46: -4535100258076560032
+      Warrior-Character-Sheet-8x8_47: 5578896133935162423
+      Warrior-Character-Sheet-8x8_48: -3587967558420294039
+      Warrior-Character-Sheet-8x8_49: -702003694560450347
+      Warrior-Character-Sheet-8x8_5: -9114790889183704922
+      Warrior-Character-Sheet-8x8_50: -7827763866622186363
+      Warrior-Character-Sheet-8x8_51: -8084850607097479889
+      Warrior-Character-Sheet-8x8_52: 7339356574805624144
+      Warrior-Character-Sheet-8x8_53: -3781442343392610262
+      Warrior-Character-Sheet-8x8_54: 6118237701420683853
+      Warrior-Character-Sheet-8x8_55: -5192000274743105100
+      Warrior-Character-Sheet-8x8_56: -2034377354495879814
+      Warrior-Character-Sheet-8x8_57: -1880750003031220555
+      Warrior-Character-Sheet-8x8_58: 4554990544375331149
+      Warrior-Character-Sheet-8x8_59: -143517682867945683
+      Warrior-Character-Sheet-8x8_6: -6103680679073736873
+      Warrior-Character-Sheet-8x8_7: 7598359628770544468
+      Warrior-Character-Sheet-8x8_8: -9017243007653072787
+      Warrior-Character-Sheet-8x8_9: 4848067020246501325
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

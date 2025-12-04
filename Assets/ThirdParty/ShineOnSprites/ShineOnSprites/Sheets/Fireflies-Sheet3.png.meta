@@ -145,6 +145,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -447,7 +460,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fireflies-Sheet3_0: 5207867780979461807
+      Fireflies-Sheet3_1: 4376891342901450942
+      Fireflies-Sheet3_10: 6529623892560286034
+      Fireflies-Sheet3_11: -8153488316747803502
+      Fireflies-Sheet3_12: -3034176709928561501
+      Fireflies-Sheet3_2: -3617964827486646780
+      Fireflies-Sheet3_3: -4706565387853245107
+      Fireflies-Sheet3_4: 5498101786301217117
+      Fireflies-Sheet3_5: -2897202177684215797
+      Fireflies-Sheet3_6: 3987836655560357786
+      Fireflies-Sheet3_7: -7426536456616839333
+      Fireflies-Sheet3_8: 932146584064444185
+      Fireflies-Sheet3_9: 4462342356721745716
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -202,6 +202,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -922,7 +935,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TileSet Png_0: -8878781142333902562
+      TileSet Png_1: 3290116442548513243
+      TileSet Png_10: 8623768501719467815
+      TileSet Png_11: 3491216716407982318
+      TileSet Png_12: 6105344113206195707
+      TileSet Png_13: 2895444679100160806
+      TileSet Png_14: 4053884447355443035
+      TileSet Png_15: 3176534052736476525
+      TileSet Png_16: -3208940057619873014
+      TileSet Png_17: -2267747825729619026
+      TileSet Png_18: 9121017939697823249
+      TileSet Png_19: 5399585864203928775
+      TileSet Png_2: -3372425185758319169
+      TileSet Png_20: 8631135552966072983
+      TileSet Png_21: -5664412155413462963
+      TileSet Png_22: 6330954859228879314
+      TileSet Png_23: 9112328786988115127
+      TileSet Png_24: 8932783463338103274
+      TileSet Png_25: 8167050323761092728
+      TileSet Png_26: -1659563874864671838
+      TileSet Png_27: 3464680290583486287
+      TileSet Png_28: -3748901707366362164
+      TileSet Png_29: -5027127859439104570
+      TileSet Png_3: 4682316719987458312
+      TileSet Png_30: -976117625140333387
+      TileSet Png_31: -6891760679597507874
+      TileSet Png_4: -195078419288254481
+      TileSet Png_5: -1597737513946094012
+      TileSet Png_6: -8936026957049247228
+      TileSet Png_7: 766553544156137945
+      TileSet Png_8: 7839443582781712318
+      TileSet Png_9: 7795749241278288675
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

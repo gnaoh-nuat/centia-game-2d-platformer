@@ -319,6 +319,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1897,7 +1910,78 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ice level demo_0: -6240701504573651910
+      ice level demo_1: 7936514964747193807
+      ice level demo_10: -8721166120377268868
+      ice level demo_11: 73534359025863334
+      ice level demo_12: 4370930010653912645
+      ice level demo_13: 4797926067032567070
+      ice level demo_14: -4284016323247642334
+      ice level demo_15: -2986695261296504852
+      ice level demo_16: 1576112499316727011
+      ice level demo_17: -2952817178805032623
+      ice level demo_18: -7766040371286875831
+      ice level demo_19: -7234940692751810633
+      ice level demo_2: 1619213302871083561
+      ice level demo_20: 7278827329240783207
+      ice level demo_21: -6176272717781069306
+      ice level demo_22: -1918346901094402617
+      ice level demo_23: -6718932592143455974
+      ice level demo_24: 1013394159848921552
+      ice level demo_25: -3175651172698614793
+      ice level demo_26: 4519741605922808270
+      ice level demo_27: -232741606610023621
+      ice level demo_28: -988294252143636203
+      ice level demo_29: -8019999436180529951
+      ice level demo_3: -8778618086840086842
+      ice level demo_30: 4464370132334027569
+      ice level demo_31: -2318164644170488791
+      ice level demo_32: 7881002795394390501
+      ice level demo_33: 5067289102597073403
+      ice level demo_34: 15859555687263514
+      ice level demo_35: -5042758797045718134
+      ice level demo_36: 4877548739838701461
+      ice level demo_37: 2208355726417222595
+      ice level demo_38: 868347006354603966
+      ice level demo_39: 4382997368958033229
+      ice level demo_4: -6930054345441113275
+      ice level demo_40: -6827054977839731897
+      ice level demo_41: 6459321787012935357
+      ice level demo_42: -5646461526134597981
+      ice level demo_43: 1193448231788269484
+      ice level demo_44: 2884922484051977492
+      ice level demo_45: 2927820491224170711
+      ice level demo_46: 3566636225230097544
+      ice level demo_47: -7879417771084340
+      ice level demo_48: 4028364444898518234
+      ice level demo_49: -2762779405758908180
+      ice level demo_5: 5574141025799998527
+      ice level demo_50: 5670281207577382022
+      ice level demo_51: -5465737388459375618
+      ice level demo_52: -5530118694283083798
+      ice level demo_53: -1787377438146321340
+      ice level demo_54: 1171333480977856427
+      ice level demo_55: -7501911772753991678
+      ice level demo_56: -6293666980460944648
+      ice level demo_57: -8345059032772288714
+      ice level demo_58: -4670259889410634830
+      ice level demo_59: 8648134038882833472
+      ice level demo_6: 1392436757143119422
+      ice level demo_60: 5107366389868813596
+      ice level demo_61: -1106322174402450172
+      ice level demo_62: -5537568830425092654
+      ice level demo_63: 8506619769055863155
+      ice level demo_64: -3981519445521973790
+      ice level demo_65: 6437022736643944336
+      ice level demo_66: 6175082168228999668
+      ice level demo_67: -4931265757805649793
+      ice level demo_68: 5030761199102552932
+      ice level demo_69: -5427718591154878175
+      ice level demo_7: -9097127918046857542
+      ice level demo_70: 4775999651418397018
+      ice level demo_8: 6171052148627160868
+      ice level demo_9: 299656754397739762
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
