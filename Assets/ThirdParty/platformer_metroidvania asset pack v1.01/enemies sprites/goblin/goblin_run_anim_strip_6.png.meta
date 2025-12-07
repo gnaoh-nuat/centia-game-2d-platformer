@@ -124,6 +124,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -272,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      goblin_run_anim_strip_6_0: 7259337455025205921
+      goblin_run_anim_strip_6_1: -6518539027076036504
+      goblin_run_anim_strip_6_2: 198394849019840942
+      goblin_run_anim_strip_6_3: 2666252742202591669
+      goblin_run_anim_strip_6_4: -3051114520297232633
+      goblin_run_anim_strip_6_5: -2706456956611528699
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

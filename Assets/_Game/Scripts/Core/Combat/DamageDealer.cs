@@ -28,6 +28,9 @@ public class DamageDealer : MonoBehaviour
 
     private void TryDealDamage(GameObject target)
     {
+        if (!target.CompareTag("Player"))
+            return;
+
         if (target.TryGetComponent(out IDamageable damageable))
         {
             Vector2 direction = (target.transform.position - transform.position).normalized;
