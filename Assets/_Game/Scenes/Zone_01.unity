@@ -1045,8 +1045,8 @@ Transform:
   m_GameObject: {fileID: 1558905821}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.3366885, y: -2.426, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -6.6608, y: -3.0049, z: 0}
+  m_LocalScale: {x: 0.6294847, y: 0.6294847, z: 0.6294847}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1076,7 +1076,7 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1634016632}
   m_Enabled: 1
-  m_CellSize: {x: 1, y: 1, z: 0}
+  m_CellSize: {x: 1, y: 1, z: 1}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
@@ -1107,6 +1107,10 @@ PrefabInstance:
     - target: {fileID: 1560236181695658262, guid: 0a43ff6761344d74bb46b93674493676, type: 3}
       propertyPath: m_Name
       value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 5598588273703815222, guid: 0a43ff6761344d74bb46b93674493676, type: 3}
+      propertyPath: orthographic size
+      value: 3.88
       objectReference: {fileID: 0}
     - target: {fileID: 6344152916020708242, guid: 0a43ff6761344d74bb46b93674493676, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1204,6 +1208,10 @@ PrefabInstance:
     - target: {fileID: 3991299816649921628, guid: 76728b2f54c68b34382ba5d5bc3743f3, type: 3}
       propertyPath: m_Name
       value: CinemachineCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 6346186119903965965, guid: 76728b2f54c68b34382ba5d5bc3743f3, type: 3}
+      propertyPath: Lens.OrthographicSize
+      value: 3.88
       objectReference: {fileID: 0}
     - target: {fileID: 6346186119903965965, guid: 76728b2f54c68b34382ba5d5bc3743f3, type: 3}
       propertyPath: Target.TrackingTarget
