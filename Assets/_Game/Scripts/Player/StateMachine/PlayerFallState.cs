@@ -8,7 +8,7 @@ public class PlayerFallState : PlayerState
     public override void Enter()
     {
         base.Enter();
-        Debug.Log("Entered Fall State");
+        //Debug.Log("Entered Fall State");
 
         inputReader.JumpEvent += OnAirJump;
         inputReader.DashEvent += OnDashPressed;
@@ -57,7 +57,9 @@ public class PlayerFallState : PlayerState
     }
     private void OnDashPressed()
     {
-        if (player.CanDash())
+        float dashCost = player.Stats.DashStaminaCost;
+
+        if (player.CanDash() && player.Stamina.TryUseStamina(dashCost))
         {
             stateMachine.ChangeState(player.DashState);
         }

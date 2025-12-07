@@ -48,7 +48,9 @@ public class PlayerMoveState : PlayerState
     }
     private void OnDashPressed()
     {
-        if (player.CanDash())
+        float dashCost = player.Stats.DashStaminaCost;
+
+        if (player.CanDash() && player.Stamina.TryUseStamina(dashCost))
         {
             stateMachine.ChangeState(player.DashState);
         }
