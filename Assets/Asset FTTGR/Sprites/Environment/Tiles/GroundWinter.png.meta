@@ -500,18 +500,18 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 8
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -599,1849 +599,1849 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GroundWinter1
+      name: GroundWinter_0
       rect:
         serializedVersion: 2
-        x: 40
-        y: 184
-        width: 8
-        height: 8
+        x: 39
+        y: 183
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b9c5ca0250b5a350800000000000000
-      internalID: -5666552777093224069
+      spriteID: b5d9ba8bef1e58a40be09cd510de5fcc
+      internalID: -609470408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter2
+      name: GroundWinter_1
       rect:
         serializedVersion: 2
-        x: 56
-        y: 184
-        width: 8
-        height: 8
+        x: 55
+        y: 183
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ad58063fb097c160800000000000000
-      internalID: -1390491782423984344
+      spriteID: 50d451c4ebd415d4ca9e721b4ea8e9c6
+      internalID: 1533033911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter3
+      name: GroundWinter_2
       rect:
         serializedVersion: 2
-        x: 72
-        y: 184
-        width: 8
-        height: 8
+        x: 71
+        y: 183
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab75f97bdf627d040800000000000000
-      internalID: -4745284827988138515
+      spriteID: c035aaadc03f1d04fa13e205d25f42bb
+      internalID: -347398562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter4
+      name: GroundWinter_3
       rect:
         serializedVersion: 2
-        x: 88
-        y: 184
-        width: 8
-        height: 8
+        x: 87
+        y: 183
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c23b03bb59e58f90800000000000000
-      internalID: 2708990064600995367
+      spriteID: be7516f54eea0c04eb8f38bb2548fe9e
+      internalID: 1754921903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter7
+      name: GroundWinter_4
       rect:
         serializedVersion: 2
-        x: 40
-        y: 168
-        width: 8
-        height: 8
+        x: 103
+        y: 183
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb557e8fa97b6dbe0800000000000000
-      internalID: -6251451809504726511
+      spriteID: 711fa12cd6cf6f34ba3b5cfdbcf4a1ac
+      internalID: -279219158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter8
+      name: GroundWinter_5
       rect:
         serializedVersion: 2
-        x: 56
-        y: 168
-        width: 8
-        height: 8
+        x: 119
+        y: 183
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c195df1d817f49610800000000000000
-      internalID: -8922835645303926111
+      spriteID: 3fac4b8b289f1554fb215e6e4eb42f65
+      internalID: 423790962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter9
+      name: GroundWinter_6
       rect:
         serializedVersion: 2
-        x: 72
-        y: 168
-        width: 8
-        height: 8
+        x: 39
+        y: 167
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 890e6a94e34925350800000000000000
-      internalID: 1690230928675606244
+      spriteID: 54a418414b6f63641bb74e55d86cae56
+      internalID: 97557133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter10
+      name: GroundWinter_7
       rect:
         serializedVersion: 2
-        x: 88
-        y: 168
-        width: 8
-        height: 8
+        x: 55
+        y: 167
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c500068153e9a9270800000000000000
-      internalID: -5504805670752825422
+      spriteID: b5e2eb36d7033f241b04bc6d2bc6a8da
+      internalID: -1818179843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter13
+      name: GroundWinter_8
       rect:
         serializedVersion: 2
-        x: 8
-        y: 152
-        width: 8
-        height: 8
+        x: 71
+        y: 167
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0f0ae4426009fa60800000000000000
-      internalID: 6366529046394908241
+      spriteID: 965c7aa065c683e46a25b3c324742f46
+      internalID: -1568312497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter14
+      name: GroundWinter_9
       rect:
         serializedVersion: 2
-        x: 24
-        y: 152
-        width: 8
-        height: 8
+        x: 87
+        y: 167
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1e6c00921cc23a10800000000000000
-      internalID: 1637635229185521236
+      spriteID: a23cdfb1b6b28804b9c1923f74bdcf5d
+      internalID: -1582032239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter15
+      name: GroundWinter_10
       rect:
         serializedVersion: 2
-        x: 40
-        y: 152
-        width: 8
-        height: 8
+        x: 103
+        y: 167
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69a316e9509d62ed0800000000000000
-      internalID: -7454627776673566795
+      spriteID: f5fa735b6c7bae941b6008cf6d21746d
+      internalID: 1545670902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter16
+      name: GroundWinter_11
       rect:
         serializedVersion: 2
-        x: 56
-        y: 152
-        width: 8
-        height: 8
+        x: 119
+        y: 167
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15e09eeebd52d01e0800000000000000
-      internalID: -7938948767547733923
+      spriteID: 1f1d3bee9d47142468ca2d168318f101
+      internalID: -1826651566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter17
+      name: GroundWinter_12
       rect:
         serializedVersion: 2
-        x: 72
-        y: 152
-        width: 8
-        height: 8
+        x: 7
+        y: 151
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d76b00d0ed7f6d660800000000000000
-      internalID: -3313248059885670843
+      spriteID: ceef1f346327b1b4183116e50e493c6b
+      internalID: -277148793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter18
+      name: GroundWinter_13
       rect:
         serializedVersion: 2
-        x: 88
-        y: 152
-        width: 8
-        height: 8
+        x: 23
+        y: 151
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 263b14beb27fe3c40800000000000000
-      internalID: -3452441277087498995
+      spriteID: e36c95890424b264cb332258fafc60f3
+      internalID: 850000069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter21
+      name: GroundWinter_14
       rect:
         serializedVersion: 2
-        x: 8
-        y: 136
-        width: 8
-        height: 8
+        x: 39
+        y: 151
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edac7e43d3623da40800000000000000
-      internalID: -236754386062953363
+      spriteID: 2363ff58e58dc194c98adb8538c87c6b
+      internalID: -1021804549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter22
+      name: GroundWinter_15
       rect:
         serializedVersion: 2
-        x: 24
-        y: 136
-        width: 8
-        height: 8
+        x: 55
+        y: 151
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 412612cbab1252260800000000000000
-      internalID: 871086884471538943
+      spriteID: 5614602e190da064da14d88706c02053
+      internalID: 1864556761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter23
+      name: GroundWinter_16
       rect:
         serializedVersion: 2
-        x: 40
-        y: 136
-        width: 8
-        height: 8
+        x: 71
+        y: 151
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 610f332110bfdfb10800000000000000
-      internalID: -543346189547360101
+      spriteID: 350ebf9b1ccb1f448af982bbd894135d
+      internalID: -975726637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter24
+      name: GroundWinter_17
       rect:
         serializedVersion: 2
-        x: 56
-        y: 136
-        width: 8
-        height: 8
+        x: 87
+        y: 151
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57a8e8e9b7b795bd0800000000000000
-      internalID: -7178729102525951276
+      spriteID: 37a601e9d35d4564bb9ebf6d01d5e6b8
+      internalID: 344184213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter25
+      name: GroundWinter_18
       rect:
         serializedVersion: 2
-        x: 72
-        y: 136
-        width: 8
-        height: 8
+        x: 103
+        y: 151
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 713a807dd19e95380800000000000000
-      internalID: 3773393419071983804
+      spriteID: 7ec05f2ff8a52944abd7e93756a653be
+      internalID: -1498458781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter26
+      name: GroundWinter_19
       rect:
         serializedVersion: 2
-        x: 88
-        y: 136
-        width: 8
-        height: 8
+        x: 119
+        y: 151
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a01b7e89c74eb3090800000000000000
-      internalID: -5972679201278228204
+      spriteID: aff1163c83b86ba4dba3716c7c75b316
+      internalID: 1477201652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter29
+      name: GroundWinter_20
       rect:
         serializedVersion: 2
-        x: 8
-        y: 120
-        width: 8
-        height: 8
+        x: 7
+        y: 135
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19d38c76286101920800000000000000
-      internalID: 6310353528261802315
+      spriteID: b9643899df31b3d4f82d28f939185a3f
+      internalID: 1319794466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter30
+      name: GroundWinter_21
       rect:
         serializedVersion: 2
-        x: 24
-        y: 120
-        width: 8
-        height: 8
+        x: 23
+        y: 135
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56299a363a2369eb0800000000000000
-      internalID: 6842327550766966292
+      spriteID: 06092f37bafd293488ea0be5a990e464
+      internalID: 222127105
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter31
+      name: GroundWinter_22
       rect:
         serializedVersion: 2
-        x: 40
-        y: 120
-        width: 8
-        height: 8
+        x: 39
+        y: 135
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36cf96a4fb5bee560800000000000000
-      internalID: -5517738199874594779
+      spriteID: df92c5c676c07d249be2e240fe874915
+      internalID: -771058308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter32
+      name: GroundWinter_23
       rect:
         serializedVersion: 2
-        x: 56
-        y: 120
-        width: 8
-        height: 8
+        x: 55
+        y: 135
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d19e150df0cf49320800000000000000
-      internalID: 29579721269606843
+      spriteID: e16ac473ca379e548b6e3edb2bbb5fd5
+      internalID: 654357344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter33
+      name: GroundWinter_24
       rect:
         serializedVersion: 2
-        x: 72
-        y: 120
-        width: 8
-        height: 8
+        x: 71
+        y: 135
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67df9c250e79beb30800000000000000
-      internalID: -2144230894313936171
+      spriteID: 922e00c3848f82e45bd836ac9c794e7f
+      internalID: -1207140523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter34
+      name: GroundWinter_25
       rect:
         serializedVersion: 2
-        x: 88
-        y: 120
-        width: 8
-        height: 8
+        x: 87
+        y: 135
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70754ca24e42d65d0800000000000000
-      internalID: -460009008014463613
+      spriteID: 7731ccdb0c30e4f428fae3ef75e37cda
+      internalID: 1439198910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter37
+      name: GroundWinter_26
       rect:
         serializedVersion: 2
-        x: 8
-        y: 104
-        width: 8
-        height: 8
+        x: 103
+        y: 135
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a546ae4b5437544d0800000000000000
-      internalID: -8037194686787029450
+      spriteID: 55028d9e220ada44f9e65b0d6c544b64
+      internalID: 458516846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter38
+      name: GroundWinter_27
       rect:
         serializedVersion: 2
-        x: 24
-        y: 104
-        width: 8
-        height: 8
+        x: 119
+        y: 135
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d605035ac55ccb740800000000000000
-      internalID: -1803201724508133967
+      spriteID: a37ff767f1389de4ba7c02a20de3d8d0
+      internalID: 90833770
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter39
+      name: GroundWinter_28
       rect:
         serializedVersion: 2
-        x: 40
-        y: 104
-        width: 8
-        height: 8
+        x: 7
+        y: 119
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f83d17a18730dbe80800000000000000
-      internalID: 6782027410547704143
+      spriteID: 6cdbfa88f23e03847bd7c247b27fc11c
+      internalID: -830887175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter40
+      name: GroundWinter_29
       rect:
         serializedVersion: 2
-        x: 56
-        y: 104
-        width: 8
-        height: 8
+        x: 23
+        y: 119
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a8fb20990f1550b0800000000000000
-      internalID: -3357430747320705636
+      spriteID: 990c190f0676e444b9f2de761fff4c2f
+      internalID: 1684944963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter41
+      name: GroundWinter_30
       rect:
         serializedVersion: 2
-        x: 72
-        y: 104
-        width: 8
-        height: 8
+        x: 39
+        y: 119
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba173236d540fb560800000000000000
-      internalID: -2312459303052968162
+      spriteID: 97bc9c9b32fed944a8d6a263347cae7b
+      internalID: 648258871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter42
+      name: GroundWinter_31
       rect:
         serializedVersion: 2
-        x: 88
-        y: 104
-        width: 8
-        height: 8
+        x: 55
+        y: 119
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d62210b612d27d80800000000000000
-      internalID: -8813222843233238766
+      spriteID: bf30eaa8162033047b1d0615edca2525
+      internalID: 2013577699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter43
+      name: GroundWinter_32
       rect:
         serializedVersion: 2
-        x: 104
-        y: 104
-        width: 8
-        height: 8
+        x: 71
+        y: 119
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a911cafa91e19910800000000000000
-      internalID: -3931079285492182950
+      spriteID: 9ae13198fdcfc794385569dae369c86c
+      internalID: -200400525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter44
+      name: GroundWinter_33
       rect:
         serializedVersion: 2
-        x: 120
-        y: 104
-        width: 8
-        height: 8
+        x: 87
+        y: 119
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f8b51aaf0f6dc9e0800000000000000
-      internalID: -8824530639807737518
+      spriteID: a66c0a8a9754e7b4e8a61b7cf93895da
+      internalID: -705773566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter45
+      name: GroundWinter_34
       rect:
         serializedVersion: 2
-        x: 136
-        y: 104
-        width: 8
-        height: 8
+        x: 103
+        y: 119
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b9b3eedf49f5d7f0800000000000000
-      internalID: 7863189505235991059
+      spriteID: da572629d9985914cb37f5966f2d31b8
+      internalID: -7184402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter46
+      name: GroundWinter_35
       rect:
         serializedVersion: 2
-        x: 24
-        y: 88
-        width: 8
-        height: 8
+        x: 119
+        y: 119
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b34a3926c3aa79240800000000000000
-      internalID: -6251509442399405760
+      spriteID: 5c1fd0234d5577c47b9f6ff18db33e27
+      internalID: -557291786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter47
+      name: GroundWinter_36
       rect:
         serializedVersion: 2
-        x: 40
-        y: 88
-        width: 8
-        height: 8
+        x: 7
+        y: 103
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60534534116fa4480800000000000000
-      internalID: 7234689654583186666
+      spriteID: 320d5f4c499dd624193cf7f2c6ed40d4
+      internalID: 1674745858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter48
+      name: GroundWinter_37
       rect:
         serializedVersion: 2
-        x: 56
-        y: 88
-        width: 8
-        height: 8
+        x: 23
+        y: 103
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dafffbea9ae212470800000000000000
-      internalID: -8735146389361958788
+      spriteID: 55494a15612e58c4d806a71424e05e08
+      internalID: -2025956004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter49
+      name: GroundWinter_38
       rect:
         serializedVersion: 2
-        x: 72
-        y: 88
-        width: 8
-        height: 8
+        x: 39
+        y: 103
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78e66229ea672a6d0800000000000000
-      internalID: 8860112997988092202
+      spriteID: 7dbeb3c23686223419351a85a03b76a6
+      internalID: -508028369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter50
+      name: GroundWinter_39
       rect:
         serializedVersion: 2
-        x: 88
-        y: 88
-        width: 8
-        height: 8
+        x: 55
+        y: 103
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12825ae9601593030800000000000000
-      internalID: 5248859780174029414
+      spriteID: ff0699dd052675242b52e921f228ff77
+      internalID: 2110043102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter51
+      name: GroundWinter_40
       rect:
         serializedVersion: 2
-        x: 8
-        y: 72
-        width: 8
-        height: 8
+        x: 71
+        y: 103
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1748bd2feb058eb30800000000000000
-      internalID: 1448218774324229756
+      spriteID: 64d53e551bc3003428d4c75661ffe082
+      internalID: 76432875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter52
+      name: GroundWinter_41
       rect:
         serializedVersion: 2
-        x: 24
-        y: 72
-        width: 8
-        height: 8
+        x: 87
+        y: 103
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3072782e811062c0800000000000000
-      internalID: -1335561643799058245
+      spriteID: a03ad79bfd539194c8b85b334418d775
+      internalID: -1185151499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter53
+      name: GroundWinter_42
       rect:
         serializedVersion: 2
-        x: 40
-        y: 72
-        width: 8
-        height: 8
+        x: 103
+        y: 103
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56f2ac10a95f65d50800000000000000
-      internalID: 5878697427789829685
+      spriteID: be2ddfbff2bd112449975ca50f61402b
+      internalID: -188911820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter54
+      name: GroundWinter_43
       rect:
         serializedVersion: 2
-        x: 56
-        y: 72
-        width: 8
-        height: 8
+        x: 119
+        y: 103
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f6de7c77d8e01070800000000000000
-      internalID: -8356640093728165356
+      spriteID: 46944fb44204be24ebdac4bd05401fec
+      internalID: -293958106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter55
+      name: GroundWinter_44
       rect:
         serializedVersion: 2
-        x: 72
-        y: 72
-        width: 8
-        height: 8
+        x: 135
+        y: 103
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 341598d9076365200800000000000000
-      internalID: -8968834113577740606
+      spriteID: 7ec5526e85d8e094ab6e5ee49feb4f59
+      internalID: -1895293344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter56
+      name: GroundWinter_45
       rect:
         serializedVersion: 2
-        x: 88
-        y: 72
-        width: 8
-        height: 8
+        x: 23
+        y: 87
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4289cc868c15e2420800000000000000
-      internalID: -7368463144203962359
+      spriteID: c6f4de156d4625b4f90049997aa5997f
+      internalID: -1661539010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter57
+      name: GroundWinter_46
       rect:
         serializedVersion: 2
-        x: 104
-        y: 72
-        width: 8
-        height: 8
+        x: 39
+        y: 87
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48f1735f337e9f400800000000000000
-      internalID: 2256980624823195114
+      spriteID: fd66871c98ab37243bca27ce75f01079
+      internalID: 2046891130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter60
+      name: GroundWinter_47
       rect:
         serializedVersion: 2
-        x: 8
-        y: 56
-        width: 8
-        height: 8
+        x: 55
+        y: 87
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6400b558c37956f0800000000000000
-      internalID: -8925176114309839754
+      spriteID: d8b7406288805474f8b20f6ccaf3c60d
+      internalID: -2037168746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter61
+      name: GroundWinter_48
       rect:
         serializedVersion: 2
-        x: 24
-        y: 56
-        width: 8
-        height: 8
+        x: 71
+        y: 87
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 518009528d82eb780800000000000000
-      internalID: -6742380963390124296
+      spriteID: 8119c5812d8ee7845ab8fcfdd72f83a2
+      internalID: 2120874854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter62
+      name: GroundWinter_49
       rect:
         serializedVersion: 2
-        x: 40
-        y: 56
-        width: 8
-        height: 8
+        x: 87
+        y: 87
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f476879a4d4c142b0800000000000000
-      internalID: -2568637506891002757
+      spriteID: b5e9c123dae1db240b34d51741f41b8f
+      internalID: -1532212890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter63
+      name: GroundWinter_50
       rect:
         serializedVersion: 2
-        x: 56
-        y: 56
-        width: 8
-        height: 8
+        x: 7
+        y: 71
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05eed31bff8e47c70800000000000000
-      internalID: 2911940825831388857
+      spriteID: 1e41f02290171f54983e31f7c68f2a16
+      internalID: -812868203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter64
+      name: GroundWinter_51
       rect:
         serializedVersion: 2
-        x: 72
-        y: 56
-        width: 8
-        height: 8
+        x: 23
+        y: 71
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4682e9ca6013f10c0800000000000000
-      internalID: 3718220323353586258
+      spriteID: 77329283b428a374287f63180ed73617
+      internalID: -2015810886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter65
+      name: GroundWinter_52
       rect:
         serializedVersion: 2
-        x: 88
-        y: 56
-        width: 8
-        height: 8
+        x: 39
+        y: 71
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de78fefb30a7b8410800000000000000
-      internalID: -5733307745436718997
+      spriteID: 5ce6472116d16754e95585d69702b68f
+      internalID: 1284719007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter66
+      name: GroundWinter_53
       rect:
         serializedVersion: 2
-        x: 104
-        y: 56
-        width: 8
-        height: 8
+        x: 55
+        y: 71
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ceb4f41b99ce62070800000000000000
-      internalID: -2318691845520781440
+      spriteID: 0a7cf5140dc083949a9b62679845c495
+      internalID: 986826700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter69
+      name: GroundWinter_54
       rect:
         serializedVersion: 2
-        x: 8
-        y: 40
-        width: 8
-        height: 8
+        x: 71
+        y: 71
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae2799a7594fadc10800000000000000
-      internalID: 2079243100829086442
+      spriteID: 2d1f8681c5d19a64ca89f7965a5ae31e
+      internalID: -465369073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter70
+      name: GroundWinter_55
       rect:
         serializedVersion: 2
-        x: 24
-        y: 40
-        width: 8
-        height: 8
+        x: 87
+        y: 71
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07eb5b78d29b01160800000000000000
-      internalID: 6994293826507882096
+      spriteID: 532aa177574f4db48970bc2b9ad0027c
+      internalID: 1012217429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter71
+      name: GroundWinter_56
       rect:
         serializedVersion: 2
-        x: 40
-        y: 40
-        width: 8
-        height: 8
+        x: 103
+        y: 71
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fab3db9082fc050a0800000000000000
-      internalID: -6894783258635191377
+      spriteID: 10101351c554de648a60f8fa79bb6220
+      internalID: -1307897306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter72
+      name: GroundWinter_57
       rect:
         serializedVersion: 2
-        x: 56
-        y: 40
-        width: 8
-        height: 8
+        x: 119
+        y: 71
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab8c1ee04e38f5840800000000000000
-      internalID: 5215031909043783866
+      spriteID: 697a6b5ed8dbd534eb9d54a9650a79df
+      internalID: 740592099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter73
+      name: GroundWinter_58
       rect:
         serializedVersion: 2
-        x: 72
-        y: 40
-        width: 8
-        height: 8
+        x: 135
+        y: 71
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f546251c25bf3fb70800000000000000
-      internalID: 8931758818855117919
+      spriteID: 59d0ca4361126024898b7a34e800a679
+      internalID: 210934377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter74
+      name: GroundWinter_59
       rect:
         serializedVersion: 2
-        x: 88
-        y: 40
-        width: 8
-        height: 8
+        x: 7
+        y: 55
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a310183c93591670800000000000000
-      internalID: 8509924901313844131
+      spriteID: 4e25b3f9c59d7d24f89e39dbf62160a1
+      internalID: 1605526932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter75
+      name: GroundWinter_60
       rect:
         serializedVersion: 2
-        x: 104
-        y: 40
-        width: 8
-        height: 8
+        x: 23
+        y: 55
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfc876aad5deae200800000000000000
-      internalID: 210241319172803837
+      spriteID: 60d2fc74d57db7349a871ab9b27afd6f
+      internalID: -1192599187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter76
+      name: GroundWinter_61
       rect:
         serializedVersion: 2
-        x: 8
-        y: 24
-        width: 8
-        height: 8
+        x: 39
+        y: 55
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd19c57bdbee38190800000000000000
-      internalID: -7961257217668378148
+      spriteID: 143c5c16fb25f6a4ebf5edcf4eb55f46
+      internalID: 1789529600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter77
+      name: GroundWinter_62
       rect:
         serializedVersion: 2
-        x: 24
-        y: 24
-        width: 8
-        height: 8
+        x: 55
+        y: 55
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1234c66f3b4d19c0800000000000000
-      internalID: -3954922162082270693
+      spriteID: 176e5af8a08ae3d4e9558b8b9bb546aa
+      internalID: -2042717464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter78
+      name: GroundWinter_63
       rect:
         serializedVersion: 2
-        x: 40
-        y: 24
-        width: 8
-        height: 8
+        x: 71
+        y: 55
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2de51ec3039d81af0800000000000000
-      internalID: -425351363583451438
+      spriteID: 3d6e8210a08e7d64caafc0d0f42cf5ab
+      internalID: 1918654846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter79
+      name: GroundWinter_64
       rect:
         serializedVersion: 2
-        x: 56
-        y: 24
-        width: 8
-        height: 8
+        x: 87
+        y: 55
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddf30f26721103c10800000000000000
-      internalID: 2031142292805402589
+      spriteID: 10648f0cba60f734cb9a20aec9012f7c
+      internalID: 806673846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter80
+      name: GroundWinter_65
       rect:
         serializedVersion: 2
-        x: 72
-        y: 24
-        width: 8
-        height: 8
+        x: 103
+        y: 55
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 156ba26167a0dbb60800000000000000
-      internalID: 7763372834950919761
+      spriteID: 4827627b2e8b9744da1c1dd7d2f89d7c
+      internalID: 1495549434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter81
+      name: GroundWinter_66
       rect:
         serializedVersion: 2
-        x: 88
-        y: 24
-        width: 8
-        height: 8
+        x: 119
+        y: 55
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16b26df35f96c6ad0800000000000000
-      internalID: -2707672773897606303
+      spriteID: 24ef7a7094dc7d44fa956ac17dbe796e
+      internalID: -1168093649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter82
+      name: GroundWinter_67
       rect:
         serializedVersion: 2
-        x: 104
-        y: 24
-        width: 8
-        height: 8
+        x: 135
+        y: 55
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6e6cd446035e64b0800000000000000
-      internalID: -5445323613054144916
+      spriteID: c4a5dbbe6c787d5458da295cb214f288
+      internalID: -1710469312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter83
+      name: GroundWinter_68
       rect:
         serializedVersion: 2
-        x: 24
-        y: 8
-        width: 8
-        height: 8
+        x: 7
+        y: 39
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b40584287c1652e10800000000000000
-      internalID: 2172249904788295755
+      spriteID: 2c31c37a193dd824f82aa5bf68d6349a
+      internalID: -421225914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter84
+      name: GroundWinter_69
       rect:
         serializedVersion: 2
-        x: 88
-        y: 8
-        width: 8
-        height: 8
+        x: 23
+        y: 39
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 996487fb823869580800000000000000
-      internalID: -8820718609124276583
+      spriteID: d7e6d396c81fd6047ab64570597c47b3
+      internalID: 1337806699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter27
+      name: GroundWinter_70
       rect:
         serializedVersion: 2
-        x: 104
-        y: 136
-        width: 8
-        height: 8
+        x: 39
+        y: 39
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79b211ee6609ddf40800000000000000
-      internalID: 8131547090980123289
+      spriteID: a4af4063db0c8f949b6bd4027786a7ee
+      internalID: 2054086837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter28
+      name: GroundWinter_71
       rect:
         serializedVersion: 2
-        x: 120
-        y: 136
-        width: 8
-        height: 8
+        x: 55
+        y: 39
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49093e401a535f440800000000000000
-      internalID: 2439826247251700659
+      spriteID: 3fd5a2aaad99fe648a3832cd63e59183
+      internalID: -139131589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter36
+      name: GroundWinter_72
       rect:
         serializedVersion: 2
-        x: 120
-        y: 120
-        width: 8
-        height: 8
+        x: 71
+        y: 39
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 649af140831e5fae0800000000000000
-      internalID: 509386604416939864
+      spriteID: b40944c78697d314ea74d9c92aea0a02
+      internalID: 2108398323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter35
+      name: GroundWinter_73
       rect:
         serializedVersion: 2
-        x: 104
-        y: 120
-        width: 8
-        height: 8
+        x: 87
+        y: 39
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cd3a6d4e2c6ae290800000000000000
-      internalID: -8869050165042756462
+      spriteID: ba488aff92058ff4db98df2b21f7874e
+      internalID: -1454102331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter19
+      name: GroundWinter_74
       rect:
         serializedVersion: 2
-        x: 104
-        y: 152
-        width: 8
-        height: 8
+        x: 103
+        y: 39
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31cf1c42409d88200800000000000000
-      internalID: -3109212629624274104
+      spriteID: e85a32491b179f1489185d8ac70bf583
+      internalID: -1449764325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter20
+      name: GroundWinter_75
       rect:
         serializedVersion: 2
-        x: 120
-        y: 152
-        width: 8
-        height: 8
+        x: 7
+        y: 23
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f657920bd9d418370800000000000000
-      internalID: -7461859608126536317
+      spriteID: 4a307a48a12b92e448475de2e8add5f8
+      internalID: -446807740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter11
+      name: GroundWinter_76
       rect:
         serializedVersion: 2
-        x: 104
-        y: 168
-        width: 8
-        height: 8
+        x: 23
+        y: 23
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d83905b86817457f0800000000000000
-      internalID: 1210263866713734479
+      spriteID: 6fe609adb53bc7748894a48c8ab8a06e
+      internalID: -793857283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter12
+      name: GroundWinter_77
       rect:
         serializedVersion: 2
-        x: 120
-        y: 168
-        width: 8
-        height: 8
+        x: 39
+        y: 23
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d649d7c2b9a110e0800000000000000
-      internalID: -4319821154966025265
+      spriteID: c0af332087265f347acd88639ddb8252
+      internalID: -716276786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter5
+      name: GroundWinter_78
       rect:
         serializedVersion: 2
-        x: 104
-        y: 184
-        width: 8
-        height: 8
+        x: 55
+        y: 23
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 341de809c0d7cb3e0800000000000000
-      internalID: 8515374864889609149
+      spriteID: 43642d47a9696b645a865c365a4bf8b0
+      internalID: 619257730
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter6
+      name: GroundWinter_79
       rect:
         serializedVersion: 2
-        x: 120
-        y: 184
-        width: 8
-        height: 8
+        x: 71
+        y: 23
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a6384df091b0a750800000000000000
-      internalID: 6457723135209396084
+      spriteID: 0ce78db6e00277941a9da4c6716b6bc8
+      internalID: 90684028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter58
+      name: GroundWinter_80
       rect:
         serializedVersion: 2
-        x: 120
-        y: 72
-        width: 8
-        height: 8
+        x: 87
+        y: 23
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c43624d148a174a0800000000000000
-      internalID: -3361301734582518893
+      spriteID: 5e84c9641ea948446a69a4c2e037c89f
+      internalID: -500916960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter59
+      name: GroundWinter_81
       rect:
         serializedVersion: 2
-        x: 136
-        y: 72
-        width: 8
-        height: 8
+        x: 103
+        y: 23
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99efc9c9dea409240800000000000000
-      internalID: -3526243763120184349
+      spriteID: 1a7ace9ca44297d42af4604a998c16aa
+      internalID: 564861660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter67
+      name: GroundWinter_82
       rect:
         serializedVersion: 2
-        x: 120
-        y: 56
-        width: 8
-        height: 8
+        x: 23
+        y: 7
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfb987af959840480800000000000000
-      internalID: -1532040619329469037
+      spriteID: 98d6b67b62e98c64d95967bbcd7ad739
+      internalID: -263181058
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GroundWinter68
+      name: GroundWinter_83
       rect:
         serializedVersion: 2
-        x: 136
-        y: 56
-        width: 8
-        height: 8
+        x: 87
+        y: 7
+        width: 10
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a74dc4cec7184620800000000000000
-      internalID: -5318843285498987219
+      spriteID: fc98cdfb3ff99b04d8833b8964f80811
+      internalID: 317697375
       vertices: []
       indices: 
       edges: []
@@ -2460,90 +2460,90 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GroundWinter1: -5666552777093224069
-      GroundWinter10: -5504805670752825422
-      GroundWinter11: 1210263866713734479
-      GroundWinter12: -4319821154966025265
-      GroundWinter13: 6366529046394908241
-      GroundWinter14: 1637635229185521236
-      GroundWinter15: -7454627776673566795
-      GroundWinter16: -7938948767547733923
-      GroundWinter17: -3313248059885670843
-      GroundWinter18: -3452441277087498995
-      GroundWinter19: -3109212629624274104
-      GroundWinter2: -1390491782423984344
-      GroundWinter20: -7461859608126536317
-      GroundWinter21: -236754386062953363
-      GroundWinter22: 871086884471538943
-      GroundWinter23: -543346189547360101
-      GroundWinter24: -7178729102525951276
-      GroundWinter25: 3773393419071983804
-      GroundWinter26: -5972679201278228204
-      GroundWinter27: 8131547090980123289
-      GroundWinter28: 2439826247251700659
-      GroundWinter29: 6310353528261802315
-      GroundWinter3: -4745284827988138515
-      GroundWinter30: 6842327550766966292
-      GroundWinter31: -5517738199874594779
-      GroundWinter32: 29579721269606843
-      GroundWinter33: -2144230894313936171
-      GroundWinter34: -460009008014463613
-      GroundWinter35: -8869050165042756462
-      GroundWinter36: 509386604416939864
-      GroundWinter37: -8037194686787029450
-      GroundWinter38: -1803201724508133967
-      GroundWinter39: 6782027410547704143
-      GroundWinter4: 2708990064600995367
-      GroundWinter40: -3357430747320705636
-      GroundWinter41: -2312459303052968162
-      GroundWinter42: -8813222843233238766
-      GroundWinter43: -3931079285492182950
-      GroundWinter44: -8824530639807737518
-      GroundWinter45: 7863189505235991059
-      GroundWinter46: -6251509442399405760
-      GroundWinter47: 7234689654583186666
-      GroundWinter48: -8735146389361958788
-      GroundWinter49: 8860112997988092202
-      GroundWinter5: 8515374864889609149
-      GroundWinter50: 5248859780174029414
-      GroundWinter51: 1448218774324229756
-      GroundWinter52: -1335561643799058245
-      GroundWinter53: 5878697427789829685
-      GroundWinter54: -8356640093728165356
-      GroundWinter55: -8968834113577740606
-      GroundWinter56: -7368463144203962359
-      GroundWinter57: 2256980624823195114
-      GroundWinter58: -3361301734582518893
-      GroundWinter59: -3526243763120184349
-      GroundWinter6: 6457723135209396084
-      GroundWinter60: -8925176114309839754
-      GroundWinter61: -6742380963390124296
-      GroundWinter62: -2568637506891002757
-      GroundWinter63: 2911940825831388857
-      GroundWinter64: 3718220323353586258
-      GroundWinter65: -5733307745436718997
-      GroundWinter66: -2318691845520781440
-      GroundWinter67: -1532040619329469037
-      GroundWinter68: -5318843285498987219
-      GroundWinter69: 2079243100829086442
-      GroundWinter7: -6251451809504726511
-      GroundWinter70: 6994293826507882096
-      GroundWinter71: -6894783258635191377
-      GroundWinter72: 5215031909043783866
-      GroundWinter73: 8931758818855117919
-      GroundWinter74: 8509924901313844131
-      GroundWinter75: 210241319172803837
-      GroundWinter76: -7961257217668378148
-      GroundWinter77: -3954922162082270693
-      GroundWinter78: -425351363583451438
-      GroundWinter79: 2031142292805402589
-      GroundWinter8: -8922835645303926111
-      GroundWinter80: 7763372834950919761
-      GroundWinter81: -2707672773897606303
-      GroundWinter82: -5445323613054144916
-      GroundWinter83: 2172249904788295755
-      GroundWinter84: -8820718609124276583
-      GroundWinter9: 1690230928675606244
+      GroundWinter_0: -609470408
+      GroundWinter_1: 1533033911
+      GroundWinter_10: 1545670902
+      GroundWinter_11: -1826651566
+      GroundWinter_12: -277148793
+      GroundWinter_13: 850000069
+      GroundWinter_14: -1021804549
+      GroundWinter_15: 1864556761
+      GroundWinter_16: -975726637
+      GroundWinter_17: 344184213
+      GroundWinter_18: -1498458781
+      GroundWinter_19: 1477201652
+      GroundWinter_2: -347398562
+      GroundWinter_20: 1319794466
+      GroundWinter_21: 222127105
+      GroundWinter_22: -771058308
+      GroundWinter_23: 654357344
+      GroundWinter_24: -1207140523
+      GroundWinter_25: 1439198910
+      GroundWinter_26: 458516846
+      GroundWinter_27: 90833770
+      GroundWinter_28: -830887175
+      GroundWinter_29: 1684944963
+      GroundWinter_3: 1754921903
+      GroundWinter_30: 648258871
+      GroundWinter_31: 2013577699
+      GroundWinter_32: -200400525
+      GroundWinter_33: -705773566
+      GroundWinter_34: -7184402
+      GroundWinter_35: -557291786
+      GroundWinter_36: 1674745858
+      GroundWinter_37: -2025956004
+      GroundWinter_38: -508028369
+      GroundWinter_39: 2110043102
+      GroundWinter_4: -279219158
+      GroundWinter_40: 76432875
+      GroundWinter_41: -1185151499
+      GroundWinter_42: -188911820
+      GroundWinter_43: -293958106
+      GroundWinter_44: -1895293344
+      GroundWinter_45: -1661539010
+      GroundWinter_46: 2046891130
+      GroundWinter_47: -2037168746
+      GroundWinter_48: 2120874854
+      GroundWinter_49: -1532212890
+      GroundWinter_5: 423790962
+      GroundWinter_50: -812868203
+      GroundWinter_51: -2015810886
+      GroundWinter_52: 1284719007
+      GroundWinter_53: 986826700
+      GroundWinter_54: -465369073
+      GroundWinter_55: 1012217429
+      GroundWinter_56: -1307897306
+      GroundWinter_57: 740592099
+      GroundWinter_58: 210934377
+      GroundWinter_59: 1605526932
+      GroundWinter_6: 97557133
+      GroundWinter_60: -1192599187
+      GroundWinter_61: 1789529600
+      GroundWinter_62: -2042717464
+      GroundWinter_63: 1918654846
+      GroundWinter_64: 806673846
+      GroundWinter_65: 1495549434
+      GroundWinter_66: -1168093649
+      GroundWinter_67: -1710469312
+      GroundWinter_68: -421225914
+      GroundWinter_69: 1337806699
+      GroundWinter_7: -1818179843
+      GroundWinter_70: 2054086837
+      GroundWinter_71: -139131589
+      GroundWinter_72: 2108398323
+      GroundWinter_73: -1454102331
+      GroundWinter_74: -1449764325
+      GroundWinter_75: -446807740
+      GroundWinter_76: -793857283
+      GroundWinter_77: -716276786
+      GroundWinter_78: 619257730
+      GroundWinter_79: 90684028
+      GroundWinter_8: -1568312497
+      GroundWinter_80: -500916960
+      GroundWinter_81: 564861660
+      GroundWinter_82: -263181058
+      GroundWinter_83: 317697375
+      GroundWinter_9: -1582032239
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

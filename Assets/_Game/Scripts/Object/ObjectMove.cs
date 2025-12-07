@@ -2,68 +2,74 @@ using UnityEngine;
 
 public class ObjectMove : MonoBehaviour
 {
-    // Tạo lựa chọn loại trục để dễ chỉnh trong Inspector
     public enum MoveDirection { Horizontal, Vertical }
 
     [Header("Cấu hình di chuyển")]
     public float speed = 2.0f;
-    
-    [Tooltip("Chọn trục di chuyển: Horizontal (Ngang) hoặc Vertical (Dọc)")]
     public MoveDirection direction = MoveDirection.Horizontal;
-
-    [Tooltip("Khoảng cách di chuyển tối đa")]
     public float distance = 3.0f;
-
-    [Tooltip("Nếu tích vào đây: Di chuyển Ngược lại (Phải sang Trái / Trên xuống Dưới). Nếu không tích: Trái sang Phải / Dưới lên Trên")]
     public bool reverse = false;
 
     private Vector3 startPosition;
     private Vector3 endPosition;
 
+    // --- CÁC BIẾN MỚI ĐỂ XỬ LÝ PLAYER ---
+    private PlayerController playerOnPlatform; // Tham chiếu tới script PlayerController
+    private Vector3 lastPlatformPosition;      // Lưu vị trí frame trước
+
     void Start()
     {
-        // Ghi nhớ điểm xuất phát
         startPosition = transform.position;
-        
-        // Tính toán điểm kết thúc dựa trên cấu hình
         CalculateEndPosition();
+
+        // Khởi tạo vị trí ban đầu
+        lastPlatformPosition = transform.position;
     }
 
-    void Update()
+    // Đổi sang FixedUpdate để đồng bộ với vật lý của Player (Rigidbody)
+    void FixedUpdate()
     {
-        // Tính toán giá trị t chạy từ 0 đến 1 rồi lại về 0 (PingPong)
-        // Time.time * speed sẽ quyết định tốc độ
-        // 1.0f là giá trị tối đa của t
+        // 1. Tính toán vị trí mới của Platform
+        // Lưu ý: Dùng Time.time trong FixedUpdate vẫn ổn cho chuyển động đơn giản, 
+        // nhưng nếu muốn chính xác tuyệt đối về vật lý thì nên cẩn thận.
         float t = Mathf.PingPong(Time.time * speed, 1.0f);
+        Vector3 newPosition = Vector3.Lerp(startPosition, endPosition, t);
 
-        // Lerp giúp di chuyển mượt mà từ startPosition đến endPosition theo giá trị t
-        transform.position = Vector3.Lerp(startPosition, endPosition, t);
+        // 2. Tính khoảng cách Platform đã di chuyển trong frame này
+        Vector3 movementDelta = newPosition - lastPlatformPosition;
+
+        // 3. Cập nhật vị trí Platform
+        transform.position = newPosition;
+
+        // 4. Nếu có Player đang đứng trên, di chuyển Player theo
+        if (playerOnPlatform != null)
+        {
+            // Cộng khoảng cách di chuyển vào vị trí Player
+            // Cách này không làm thay đổi Scale, không thay đổi cha/con
+            playerOnPlatform.transform.position += movementDelta;
+        }
+
+        // 5. Cập nhật lại vị trí cũ để dùng cho frame sau
+        lastPlatformPosition = newPosition;
     }
 
-    // Hàm tính điểm đích đến
     void CalculateEndPosition()
     {
-        float dirValue = reverse ? -1f : 1f; // Nếu reverse = true thì nhân với -1 (đi ngược)
-
+        float dirValue = reverse ? -1f : 1f;
         if (direction == MoveDirection.Horizontal)
-        {
-            // Di chuyển theo trục X
             endPosition = startPosition + new Vector3(distance * dirValue, 0f, 0f);
-        }
         else
-        {
-            // Di chuyển theo trục Y
             endPosition = startPosition + new Vector3(0f, distance * dirValue, 0f);
-        }
     }
 
-    // --- PHẦN XỬ LÝ VA CHẠM (GIỮ NGUYÊN) ---
+    // --- XỬ LÝ VA CHẠM (KHÔNG DÙNG SET PARENT) ---
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            collision.transform.SetParent(this.transform);
+            // Lấy component PlayerController thay vì SetParent
+            playerOnPlatform = collision.gameObject.GetComponent<PlayerController>();
         }
     }
 
@@ -71,16 +77,19 @@ public class ObjectMove : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            collision.transform.SetParent(null);
+            // Kiểm tra kỹ xem vật rời đi có đúng là Player đang lưu không
+            PlayerController exitingPlayer = collision.gameObject.GetComponent<PlayerController>();
+            if (exitingPlayer != null && exitingPlayer == playerOnPlatform)
+            {
+                playerOnPlatform = null;
+            }
         }
     }
-    
-    // Vẽ đường di chuyển trong Scene để dễ nhìn (Debug)
+
     private void OnDrawGizmos()
     {
         if (!Application.isPlaying)
         {
-            // Khi chưa chạy game, vẽ dựa trên vị trí hiện tại giả định
             Vector3 tempEnd = transform.position;
             float dir = reverse ? -1f : 1f;
             if (direction == MoveDirection.Horizontal) tempEnd += Vector3.right * distance * dir;
@@ -91,7 +100,6 @@ public class ObjectMove : MonoBehaviour
         }
         else
         {
-            // Khi đang chạy game
             Gizmos.color = Color.green;
             Gizmos.DrawLine(startPosition, endPosition);
         }

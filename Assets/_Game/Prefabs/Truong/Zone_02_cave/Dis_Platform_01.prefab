@@ -358,6 +358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8792831367393921429}
   - component: {fileID: 7941733491510733899}
+  - component: {fileID: 145596934361372449}
   m_Layer: 6
   m_Name: Dis_Platform_01
   m_TagString: Untagged
@@ -430,3 +431,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.6385574, y: 0.5467806}
   m_EdgeRadius: 0
+--- !u!114 &145596934361372449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8886932487825078679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 212c28a453ca5d245b3be275a2da1ca5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToDisappear: 3
+  timeToBlink: 2
+  blinkSpeedDisappear: 0.1
+  timeToRespawnWarning: 1.5
+  blinkSpeedRespawn: 0.2
