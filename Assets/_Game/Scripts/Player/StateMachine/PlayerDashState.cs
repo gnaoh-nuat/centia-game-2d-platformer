@@ -11,7 +11,9 @@ public class PlayerDashState : PlayerState
     public override void Enter()
     {
         base.Enter();
-        Debug.Log("Entered Dash State");
+        //Debug.Log("Entered Dash State");
+
+        player.PlayAnimation(player.AnimID_Dash);
 
         // Record the start time of the dash
         _startTime = Time.time;

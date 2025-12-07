@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
@@ -7,11 +7,19 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private InputReader _inputReader;
     [SerializeField] private Animator _animator;
     public Rigidbody2D Rigidbody2D { get; private set; }
+    public StaminaSystem Stamina { get; private set; }
+    public HealthSystem Health { get; private set; }
+
+    [Header("Config Data")]
+    public CharacterStatsSO Stats;
 
     public int AnimID_Idle { get; private set; }
     public int AnimID_Run { get; private set; }
     public int AnimID_Jump { get; private set; }
     public int AnimID_Fall { get; private set; }
+    public int AnimID_Die { get; private set; }
+    public int AnimID_Hurt { get; private set; }
+    public int AnimID_Dash { get; private set; }
 
 
     [Header("Movement Settings")]
@@ -42,6 +50,8 @@ public class PlayerController : MonoBehaviour
     public PlayerJumpState JumpState { get; private set; }
     public PlayerDashState DashState { get; private set; }
     public PlayerFallState FallState { get; private set; }
+    public PlayerHurtState HurtState { get; private set; }
+    public PlayerDeathState DeathState { get; private set; }
 
     public Vector2 MoveInput { get; private set; }
     public int FacingDirection { get; private set; } = 1; // 1 = right, -1 = left
@@ -51,12 +61,17 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
+        Stamina = GetComponent<StaminaSystem>();
+        Health = GetComponent<HealthSystem>();
 
         // Initialize Animation IDs
         AnimID_Idle = Animator.StringToHash("Idle");
         AnimID_Run = Animator.StringToHash("Run");
         AnimID_Jump = Animator.StringToHash("Jump");
         AnimID_Fall = Animator.StringToHash("Fall");
+        AnimID_Die = Animator.StringToHash("Die");
+        AnimID_Hurt = Animator.StringToHash("Hurt");
+        AnimID_Dash = Animator.StringToHash("Dash");
 
         // Initialize State Machine and States
         StateMachine = new PlayerStateMachine();
@@ -65,6 +80,8 @@ public class PlayerController : MonoBehaviour
         JumpState = new PlayerJumpState(this, StateMachine, _inputReader);
         DashState = new PlayerDashState(this, StateMachine, _inputReader);
         FallState = new PlayerFallState(this, StateMachine, _inputReader);
+        HurtState = new PlayerHurtState(this, StateMachine, _inputReader);
+        DeathState = new PlayerDeathState(this, StateMachine, _inputReader);
     }
 
     private void Start()
@@ -75,11 +92,17 @@ public class PlayerController : MonoBehaviour
     private void OnEnable()
     {
         _inputReader.MoveEvent += HandledMoveInput;
+
+        Health.OnDamaged += HandleDamaged;
+        Health.OnDeath += HandleDeath;
     }
 
     private void OnDisable()
     {
         _inputReader.MoveEvent -= HandledMoveInput;
+
+        Health.OnDamaged -= HandleDamaged;
+        Health.OnDeath -= HandleDeath;
     }
 
     private void Update()
@@ -102,6 +125,18 @@ public class PlayerController : MonoBehaviour
             FacingDirection = input.x > 0 ? 1 : -1;
             transform.localScale = new Vector3(FacingDirection, 1, 1);
         }
+    }
+
+    private void HandleDamaged(Vector2 knockback)
+    {
+        Rigidbody2D.linearVelocity = knockback;
+
+        StateMachine.ChangeState(HurtState);
+    }
+
+    private void HandleDeath()
+    {
+        StateMachine.ChangeState(DeathState);
     }
 
     public void SetVelocityX(float velocity)
@@ -150,7 +185,10 @@ public class PlayerController : MonoBehaviour
 
     public bool CanDash()
     {
-        return Time.time >= _dashReadyTime;
+        if (Time.time < _dashReadyTime) return false;
+        //float dashCost = Stats.DashStaminaCost;
+        //if (Stamina.CurrentStamina < dashCost) return false;
+        return true;
     }
 
     // Visualize ground check in editor

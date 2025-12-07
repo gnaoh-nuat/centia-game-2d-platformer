@@ -12,7 +12,7 @@ public class PlayerJumpState : PlayerState
         float force = player.JumpForce;
 
         base.Enter();
-        Debug.Log("Entered Jump State");
+        //Debug.Log("Entered Jump State");
 
         if (player.JumpLeft < player.MaxJumps - 1)
         {
@@ -70,7 +70,9 @@ public class PlayerJumpState : PlayerState
     }
     private void OnDashPressed()
     {
-        if (player.CanDash())
+        float dashCost = player.Stats.DashStaminaCost;
+
+        if (player.CanDash() && player.Stamina.TryUseStamina(dashCost))
         {
             stateMachine.ChangeState(player.DashState);
         }
