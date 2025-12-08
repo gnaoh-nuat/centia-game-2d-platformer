@@ -24,6 +24,7 @@ public class PlayerMoveState : PlayerState
         base.Exit();
         inputReader.JumpEvent -= OnJumpPressed;
         inputReader.DashEvent -= OnDashPressed;
+
     }
 
     public override void LogicUpdate()

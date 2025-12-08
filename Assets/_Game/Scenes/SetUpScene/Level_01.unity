@@ -272,6 +272,7 @@ MonoBehaviour:
   JumpSFX: {fileID: 8300000, guid: cf3b2f23b29a90243ae3b95c353de6c4, type: 3}
   DashSFX: {fileID: 0}
   HurtSFX: {fileID: 8300000, guid: 1f529966a1adda74aa8eb68002d053c8, type: 3}
+  DeathSFX: {fileID: 0}
 --- !u!95 &319849646
 Animator:
   serializedVersion: 7
@@ -408,6 +409,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _stats: {fileID: 11400000, guid: 27219bfd3fbcf6b45a69faf06b633b24, type: 2}
+  _renderer: {fileID: 319849647}
+  _flickerInterval: 0.1
   _currentHealth: 0
 --- !u!114 &319849650
 MonoBehaviour:
@@ -497,7 +500,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 34
-    OrthographicSize: 4
+    OrthographicSize: 11
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -637,7 +640,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 4
+  orthographic size: 11
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

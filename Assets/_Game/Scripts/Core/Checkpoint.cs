@@ -11,7 +11,7 @@ public class Checkpoint : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (_isActivated) return; // Đã kích hoạt rồi thì thôi
+        if (_isActivated) return;
 
         if (other.CompareTag("Player"))
         {
@@ -22,16 +22,9 @@ public class Checkpoint : MonoBehaviour
     private void ActivateCheckpoint()
     {
         _isActivated = true;
-
-        // 1. Đổi màu để báo hiệu
         if (_renderer != null) _renderer.color = _activeColor;
 
-        // 2. Lưu vị trí vào GameManager
         GameManager.Instance.UpdateCheckpoint(transform.position);
-
-        // (Tùy chọn) Play Sound, Particle Effect...
     }
 
-    // Hàm này để reset màu nếu muốn hệ thống chỉ cho phép 1 checkpoint sáng tại 1 thời điểm
-    // (Nhưng logic đơn giản thì cứ để nó sáng mãi cũng được)
 }

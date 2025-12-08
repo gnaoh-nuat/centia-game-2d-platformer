@@ -35,10 +35,8 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        // Nếu game bắt đầu từ Scene "Boot", hãy tự động chuyển sang MainMenu
         if (SceneManager.GetActiveScene().name == "Boot")
         {
-            // Gọi SceneLoader để chuyển cảnh
             SceneLoader.Instance.LoadScene("MainMenu");
         }
     }
@@ -51,10 +49,9 @@ public class GameManager : MonoBehaviour
 
     public void ClearCheckpoint()
     {
-        RespawnPosition = null; // Dùng khi New Game
+        RespawnPosition = null;
     }
 
-    // Hàm thoát game
     public void ExitGame()
     {
         Application.Quit();
@@ -65,8 +62,6 @@ public class GameManager : MonoBehaviour
 
     private void HandlePauseInput()
     {
-        // Chỉ cho phép Pause khi đang ở trong Gameplay (Không phải ở MainMenu)
-        // Cách đơn giản nhất check: Nếu HUD đang hiện thì tức là đang chơi
         if (UIManager.Instance.IsHUDActive())
         {
             TogglePause();
@@ -79,25 +74,21 @@ public class GameManager : MonoBehaviour
 
         if (IsPaused)
         {
-            Time.timeScale = 0f; // Dừng thời gian
-            UIManager.Instance.ShowPauseMenu(); // Hiện UI
+            Time.timeScale = 0f;
+            UIManager.Instance.ShowPauseMenu();
         }
         else
         {
-            Time.timeScale = 1f; // Chạy tiếp
-            UIManager.Instance.HidePauseMenu(); // Ẩn UI
+            Time.timeScale = 1f;
+            UIManager.Instance.HidePauseMenu();
         }
     }
 
     public void QuitToMainMenu()
     {
-        Time.timeScale = 1f; // QUAN TRỌNG: Phải trả lại thời gian trước khi load scene
+        Time.timeScale = 1f;
         IsPaused = false;
-
-        // Load về Menu
         SceneLoader.Instance.LoadScene("MainMenu");
-
-        // Bảo UIManager bật lại giao diện Menu
         UIManager.Instance.ShowMainMenu();
     }
 }

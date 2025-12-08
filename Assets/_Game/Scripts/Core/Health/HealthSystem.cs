@@ -8,8 +8,12 @@ public class HealthSystem : MonoBehaviour, IDamageable
     [Header("Data")]
     [SerializeField] private CharacterStatsSO _stats;
 
+    [Header("Visuals")]
+    [SerializeField] private SpriteRenderer _renderer;
+    [SerializeField] private float _flickerInterval = 0.1f;
+
     [Header("Events")]
-    public UnityAction<int, int> OnHealthChanged; 
+    public UnityAction<int, int> OnHealthChanged;
     public UnityAction OnDeath;
     public UnityAction<Vector2> OnDamaged;
 
@@ -26,7 +30,10 @@ public class HealthSystem : MonoBehaviour, IDamageable
             Debug.LogError($"{gameObject.name}: Chưa gán CharacterStatsSO!");
             return;
         }
-        
+
+        if (_renderer == null)
+            _renderer = GetComponentInChildren<SpriteRenderer>();
+
         _currentHealth = _stats.MaxHealth;
     }
 
@@ -69,8 +76,32 @@ public class HealthSystem : MonoBehaviour, IDamageable
     private IEnumerator InvulnerabilityCoroutine()
     {
         _isInvulnerable = true;
-        yield return new WaitForSeconds(_stats.ImmunityTime);
+
+        float timer = 0f;
+
+        while (timer < _stats.ImmunityTime)
+        {
+            SetSpriteAlpha(0.5f);
+            yield return new WaitForSeconds(_flickerInterval);
+
+            SetSpriteAlpha(1f);
+            yield return new WaitForSeconds(_flickerInterval);
+
+            timer += _flickerInterval * 2;
+        }
+
+        SetSpriteAlpha(1f);
         _isInvulnerable = false;
+    }
+
+    private void SetSpriteAlpha(float alpha)
+    {
+        if (_renderer != null)
+        {
+            Color color = _renderer.color;
+            color.a = alpha;
+            _renderer.color = color;
+        }
     }
 
     public void Heal(int healAmount)

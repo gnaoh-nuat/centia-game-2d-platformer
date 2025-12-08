@@ -2,7 +2,7 @@
 
 public class PlayerHurtState : PlayerState
 {
-    private float _hurtDuration = 0.5f; // Thời gian bị choáng
+    private float _hurtDuration = 0.5f;
     private float _timer;
 
     public PlayerHurtState(PlayerController player, PlayerStateMachine stateMachine, InputReader inputReader)

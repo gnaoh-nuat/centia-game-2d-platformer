@@ -48,6 +48,7 @@ public class PlayerController : MonoBehaviour
     public AudioClip JumpSFX;
     public AudioClip DashSFX;
     public AudioClip HurtSFX;
+    public AudioClip DeathSFX;
 
     // State Machine
     public PlayerStateMachine StateMachine { get; private set; }
@@ -209,13 +210,10 @@ public class PlayerController : MonoBehaviour
 
     public void RumbleGamepad(float lowFrequency, float highFrequency, float duration)
     {
-        // Kiểm tra xem có Gamepad nào đang kết nối không
         if (Gamepad.current != null)
         {
-            // Rung: Motor trái (trầm) và phải (cao)
             Gamepad.current.SetMotorSpeeds(lowFrequency, highFrequency);
 
-            // Tắt rung sau một khoảng thời gian
             StartCoroutine(StopRumble(duration));
         }
     }

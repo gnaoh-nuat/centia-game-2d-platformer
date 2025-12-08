@@ -5,7 +5,7 @@ public class ObjectMove : MonoBehaviour
     public enum MoveDirection { Horizontal, Vertical }
 
     [Header("Cấu hình di chuyển")]
-    public float speed = 1.0f;                  // Vận tốc thật (mỗi giây)
+    public float speed = 1.0f;
     public MoveDirection direction = MoveDirection.Horizontal;
     public float distance = 3.0f;
     public bool reverse = false;
@@ -14,7 +14,6 @@ public class ObjectMove : MonoBehaviour
     private Vector3 endPosition;
     private Vector3 targetPos;
 
-    // --- CÁC BIẾN DÙNG CHO PLAYER ---
     private PlayerController playerOnPlatform;
     private Vector3 lastPlatformPosition;
 
@@ -23,7 +22,6 @@ public class ObjectMove : MonoBehaviour
         startPosition = transform.position;
         CalculateEndPosition();
 
-        // Điểm đích đầu tiên
         targetPos = endPosition;
 
         lastPlatformPosition = transform.position;
@@ -31,32 +29,26 @@ public class ObjectMove : MonoBehaviour
 
     void FixedUpdate()
     {
-        // --- 1. Di chuyển Platform theo vận tốc thật ---
         Vector3 newPosition = Vector3.MoveTowards(
             transform.position,
             targetPos,
             speed * Time.deltaTime
         );
 
-        // --- 2. Tính vector di chuyển của Platform ---
         Vector3 movementDelta = newPosition - lastPlatformPosition;
 
-        // --- 3. Cập nhật vị trí Platform ---
         transform.position = newPosition;
 
-        // --- 4. Nếu Player đang đứng trên thì di chuyển theo ---
         if (playerOnPlatform != null)
         {
             playerOnPlatform.transform.position += movementDelta;
         }
 
-        // --- 5. Đổi hướng khi chạm điểm đích ---
         if (Vector3.Distance(transform.position, targetPos) <= 0.02f)
         {
             targetPos = (targetPos == endPosition) ? startPosition : endPosition;
         }
 
-        // --- 6. Lưu lại vị trí trước ---
         lastPlatformPosition = newPosition;
     }
 

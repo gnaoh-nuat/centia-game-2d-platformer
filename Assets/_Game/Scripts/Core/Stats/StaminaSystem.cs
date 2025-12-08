@@ -27,7 +27,6 @@ public class StaminaSystem : MonoBehaviour
 
     private void Start()
     {
-        // Gửi dữ liệu ban đầu cho UI
         OnStaminaChanged?.Invoke(_currentStamina, _stats.MaxStamina);
     }
 

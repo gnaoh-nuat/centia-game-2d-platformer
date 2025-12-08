@@ -36,32 +36,27 @@ public class SimplePatrolEnemy : MonoBehaviour
         _currentTarget = PointA;
         _isWaiting = false;
 
-        // Cập nhật hướng mặt ngay từ đầu
         Flip();
         PlayAnim(_animID_Walk);
     }
 
     private void FixedUpdate()
     {
-        // 1. Xử lý logic Đứng nghỉ
         if (_isWaiting)
         {
             PlayAnim(_animID_Idle);
-
-            // Khóa vận tốc lại để không bị trượt
             _rb.linearVelocity = Vector2.zero;
 
             _waitCounter -= Time.fixedDeltaTime;
             if (_waitCounter <= 0)
             {
                 _isWaiting = false;
-                SwitchTarget(); // Đổi mục tiêu
-                Flip();         // Quay đầu
+                SwitchTarget();
+                Flip();
             }
             return;
         }
 
-        // 2. Xử lý logic Di chuyển
         Move();
     }
 
@@ -69,20 +64,16 @@ public class SimplePatrolEnemy : MonoBehaviour
     {
         PlayAnim(_animID_Walk);
 
-        // Tính khoảng cách chỉ trên trục X (để tránh lỗi do lệch độ cao Y)
         float distanceX = Mathf.Abs(_currentTarget.position.x - transform.position.x);
 
-        // Nếu khoảng cách đủ nhỏ -> Đã đến nơi
         if (distanceX < 0.2f)
         {
             _isWaiting = true;
             _waitCounter = WaitTime;
-            _rb.linearVelocity = Vector2.zero; // Dừng ngay lập tức
+            _rb.linearVelocity = Vector2.zero;
             return;
         }
 
-        // Di chuyển
-        // Lấy vị trí mục tiêu X, nhưng giữ nguyên Y của bản thân (để không bay lên/xuống theo điểm mốc)
         Vector2 targetPos = new Vector2(_currentTarget.position.x, _rb.position.y);
         Vector2 newPos = Vector2.MoveTowards(_rb.position, targetPos, Speed * Time.fixedDeltaTime);
         _rb.MovePosition(newPos);
@@ -98,12 +89,7 @@ public class SimplePatrolEnemy : MonoBehaviour
 
     private void Flip()
     {
-        // Xác định hướng: Nếu mục tiêu nằm bên Phải (> position.x) thì direction = 1, ngược lại -1
-        // LƯU Ý: Nếu sprite của bạn bị ngược (đi phải mà mặt quay trái), hãy thêm dấu trừ (-) vào trước biểu thức này
         float direction = _currentTarget.position.x > transform.position.x ? 1 : -1;
-
-        // Sửa lỗi: Nếu Sprite gốc của bạn quay mặt sang TRÁI, hãy đổi dòng trên thành:
-        // float direction = _currentTarget.position.x > transform.position.x ? -1 : 1;
 
         transform.localScale = new Vector3(direction, 1, 1);
     }

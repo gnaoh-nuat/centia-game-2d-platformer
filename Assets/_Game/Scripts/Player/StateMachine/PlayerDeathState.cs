@@ -21,9 +21,7 @@ public class PlayerDeathState : PlayerState
 
     private System.Collections.IEnumerator ReloadSceneRoutine()
     {
-        yield return new WaitForSeconds(1.5f); // Chờ animation chết chạy xong
-
-        // Reload lại scene hiện tại
+        yield return new WaitForSeconds(1.5f);
         string currentScene = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
         SceneLoader.Instance.LoadScene(currentScene);
     }

@@ -23,10 +23,8 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    // --- PHÁT NHẠC NỀN (Loop) ---
     public void PlayMusic(AudioClip clip)
     {
-        // Nếu nhạc này đang phát rồi thì thôi (tránh bị reset bài hát)
         if (_musicSource.clip == clip) return;
 
         _musicSource.clip = clip;
@@ -38,8 +36,6 @@ public class AudioManager : MonoBehaviour
         _musicSource.Stop();
     }
 
-    // --- PHÁT HIỆU ỨNG (One Shot) ---
-    // PlayOneShot giúp phát chồng nhiều âm thanh lên nhau (ví dụ: tiếng súng bắn liên thanh)
     public void PlaySFX(AudioClip clip)
     {
         if (clip != null)
@@ -48,14 +44,13 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    // Tùy chọn: Phát SFX với độ cao (Pitch) ngẫu nhiên để đỡ nhàm chán (dùng cho tiếng bước chân, nhảy)
     public void PlaySFXRandomPitch(AudioClip clip)
     {
         if (clip != null)
         {
             _sfxSource.pitch = Random.Range(0.9f, 1.1f);
             _sfxSource.PlayOneShot(clip);
-            _sfxSource.pitch = 1f; // Reset lại pitch chuẩn
+            _sfxSource.pitch = 1f;
         }
     }
 }

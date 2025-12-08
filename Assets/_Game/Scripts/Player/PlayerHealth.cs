@@ -10,7 +10,6 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-    // Hàm này sẽ được script Bẫy gọi
     public void TakeDamage(int amount)
     {
         currentHealth -= amount;
@@ -25,7 +24,6 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         Debug.Log("Nhân vật đã hy sinh!");
-        // Thêm code reset game hoặc ẩn nhân vật ở đây
         gameObject.SetActive(false); 
     }
 }
