@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
@@ -191,10 +192,31 @@ public class PlayerController : MonoBehaviour
     public bool CanDash()
     {
         if (Time.time < _dashReadyTime) return false;
-        //float dashCost = Stats.DashStaminaCost;
-        //if (Stamina.CurrentStamina < dashCost) return false;
+        float dashCost = Stats.DashStaminaCost;
+        if (Stamina.CurrentStamina < dashCost) return false;
         return true;
     }
+
+    public void RumbleGamepad(float lowFrequency, float highFrequency, float duration)
+    {
+        // Kiểm tra xem có Gamepad nào đang kết nối không
+        if (Gamepad.current != null)
+        {
+            // Rung: Motor trái (trầm) và phải (cao)
+            Gamepad.current.SetMotorSpeeds(lowFrequency, highFrequency);
+
+            // Tắt rung sau một khoảng thời gian
+            StartCoroutine(StopRumble(duration));
+        }
+    }
+
+    private System.Collections.IEnumerator StopRumble(float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        if (Gamepad.current != null)
+            Gamepad.current.SetMotorSpeeds(0f, 0f);
+    }
+
 
     // Visualize ground check in editor
     private void OnDrawGizmos()
