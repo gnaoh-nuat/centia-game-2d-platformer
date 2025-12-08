@@ -12,6 +12,7 @@ public class PlayerHurtState : PlayerState
     {
         base.Enter();
         Debug.Log("Player Hurt State Entered");
+        player.RumbleGamepad(0.5f, 0.5f, 0.2f);
         player.PlayAnimation(player.AnimID_Hurt);
         _timer = 0f;
     }
