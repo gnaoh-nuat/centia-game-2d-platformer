@@ -49,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -141,13 +141,13 @@ TextureImporter:
       name: mushroom_crushed_anim_strip_6_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 16
+        width: 14
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 4}
       customData: 
       outline: []
       physicsShape: []
@@ -163,13 +163,13 @@ TextureImporter:
       name: mushroom_crushed_anim_strip_6_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 17
         y: 0
-        width: 16
-        height: 12
+        width: 14
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 4}
       customData: 
       outline: []
       physicsShape: []
@@ -185,13 +185,13 @@ TextureImporter:
       name: mushroom_crushed_anim_strip_6_2
       rect:
         serializedVersion: 2
-        x: 31
+        x: 33
         y: 0
-        width: 34
-        height: 10
+        width: 14
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 4}
       customData: 
       outline: []
       physicsShape: []
@@ -207,13 +207,13 @@ TextureImporter:
       name: mushroom_crushed_anim_strip_6_3
       rect:
         serializedVersion: 2
-        x: 64
+        x: 65
         y: 0
-        width: 16
-        height: 12
+        width: 14
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 4}
       customData: 
       outline: []
       physicsShape: []
@@ -229,13 +229,13 @@ TextureImporter:
       name: mushroom_crushed_anim_strip_6_4
       rect:
         serializedVersion: 2
-        x: 80
+        x: 81
         y: 0
-        width: 16
-        height: 14
+        width: 14
+        height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 4}
       customData: 
       outline: []
       physicsShape: []
@@ -247,11 +247,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: mushroom_crushed_anim_strip_6_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 4}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdaabb916f68974aa3114eb9cc42bed
+      internalID: 1767272455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0ddb7492bc618724d8e8e2e6c0e481a9
     internalID: 0
     vertices: []
     indices: 
@@ -266,6 +288,7 @@ TextureImporter:
       mushroom_crushed_anim_strip_6_2: -4739746410951811203
       mushroom_crushed_anim_strip_6_3: -3371635672966405916
       mushroom_crushed_anim_strip_6_4: 9176025294522152392
+      mushroom_crushed_anim_strip_6_5: 1767272455
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
