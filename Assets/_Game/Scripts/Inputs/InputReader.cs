@@ -10,6 +10,7 @@ public class InputReader : ScriptableObject, GameInput.IGameplayActions
     public event UnityAction JumpEvent;
     public event UnityAction JumpCanceledEvent; // Added event for jump canceled
     public event UnityAction DashEvent;
+    public event UnityAction PauseEvent;
 
     private GameInput _gameInput;
 
@@ -54,6 +55,14 @@ public class InputReader : ScriptableObject, GameInput.IGameplayActions
         if (context.performed)
         {
             DashEvent?.Invoke();
+        }
+    }
+
+    public void OnPause(InputAction.CallbackContext context)
+    {
+        if (context.phase == InputActionPhase.Performed)
+        {
+            PauseEvent?.Invoke();
         }
     }
 }

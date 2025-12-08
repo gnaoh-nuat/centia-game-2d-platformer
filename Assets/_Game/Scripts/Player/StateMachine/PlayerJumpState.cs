@@ -8,6 +8,7 @@ public class PlayerJumpState : PlayerState
 
     public override void Enter()
     {
+        AudioManager.Instance.PlaySFX(player.JumpSFX);
         player.JumpLeft--;
         float force = player.JumpForce;
 

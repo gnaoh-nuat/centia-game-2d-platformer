@@ -44,6 +44,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _groundCheckDistance = 0.05f;
     [SerializeField] private float _groundCheckWidthScale = 0.9f;
 
+    [Header("Audio Clips")]
+    public AudioClip JumpSFX;
+    public AudioClip DashSFX;
+    public AudioClip HurtSFX;
+
     // State Machine
     public PlayerStateMachine StateMachine { get; private set; }
     public PlayerIdleState IdleState { get; private set; }

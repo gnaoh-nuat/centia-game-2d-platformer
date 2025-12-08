@@ -11,6 +11,7 @@ public class PlayerHurtState : PlayerState
     public override void Enter()
     {
         base.Enter();
+        AudioManager.Instance.PlaySFX(player.HurtSFX);
         Debug.Log("Player Hurt State Entered");
         player.RumbleGamepad(0.5f, 0.5f, 0.2f);
         player.PlayAnimation(player.AnimID_Hurt);

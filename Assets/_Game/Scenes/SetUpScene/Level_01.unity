@@ -269,6 +269,9 @@ MonoBehaviour:
     m_Bits: 64
   _groundCheckDistance: 0.05
   _groundCheckWidthScale: 0.9
+  JumpSFX: {fileID: 8300000, guid: cf3b2f23b29a90243ae3b95c353de6c4, type: 3}
+  DashSFX: {fileID: 0}
+  HurtSFX: {fileID: 8300000, guid: 1f529966a1adda74aa8eb68002d053c8, type: 3}
 --- !u!95 &319849646
 Animator:
   serializedVersion: 7

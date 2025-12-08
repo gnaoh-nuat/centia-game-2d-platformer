@@ -9,6 +9,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameHUD _gameHUD; // Tham chiếu tới script HUD
     [SerializeField] private GameObject _pauseMenuPanel;
     [SerializeField] private GameObject _loadingScreen;
+    [SerializeField] private GameObject _optionsPanel;
 
     private void Awake()
     {
@@ -56,5 +57,36 @@ public class UIManager : MonoBehaviour
     public void BindPlayerToUI(PlayerController player)
     {
         _gameHUD.InitializeHUD(player);
+    }
+
+    public bool IsHUDActive()
+    {
+        return _gameHUD.gameObject.activeSelf;
+    }
+
+    public void ShowPauseMenu()
+    {
+        _pauseMenuPanel.SetActive(true);
+        // Tùy chọn: Có thể ẩn HUD đi cho thoáng, hoặc để mờ mờ ở dưới
+        // _gameHUD.gameObject.SetActive(false); 
+    }
+
+    public void HidePauseMenu()
+    {
+        _pauseMenuPanel.SetActive(false);
+        _optionsPanel.SetActive(false); // Đảm bảo tắt cả Option nếu đang mở
+        // _gameHUD.gameObject.SetActive(true);
+    }
+
+    public void ShowOptionsFromPause()
+    {
+        _pauseMenuPanel.SetActive(false);
+        _optionsPanel.SetActive(true);
+    }
+
+    public void ReturnToPauseFromOptions()
+    {
+        _optionsPanel.SetActive(false);
+        _pauseMenuPanel.SetActive(true);
     }
 }
