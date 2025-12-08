@@ -93,6 +93,11 @@ public class PlayerController : MonoBehaviour
         {
             transform.position = GameManager.Instance.RespawnPosition.Value;
         }
+
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.BindPlayerToUI(this);
+        }
     }
 
     private void OnEnable()

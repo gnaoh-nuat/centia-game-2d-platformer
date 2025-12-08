@@ -44,6 +44,8 @@ public class MainMenuUI : MonoBehaviour
 
         // Gọi SceneLoader để vào màn 1
         SceneLoader.Instance.LoadScene("Level_01");
+
+        UIManager.Instance.ShowGameplayHUD();
     }
 
     public void OnOptionsClicked()
