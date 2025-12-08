@@ -44,9 +44,11 @@ public class GameHUD : MonoBehaviour
 
     private void InitializeHearts(int maxHealth)
     {
+        // Clear existing hearts
         foreach (Transform child in _heartContainer) Destroy(child.gameObject);
         _hearts.Clear();
 
+        // Create new hearts
         for (int i = 0; i < maxHealth; i++)
         {
             GameObject newHeart = Instantiate(_heartPrefab, _heartContainer);
@@ -56,6 +58,7 @@ public class GameHUD : MonoBehaviour
 
     private void UpdateHealthUI(int current, int max)
     {
+        // Ensure hearts are initialized
         if (_hearts.Count != max) InitializeHearts(max);
 
         for (int i = 0; i < _hearts.Count; i++)

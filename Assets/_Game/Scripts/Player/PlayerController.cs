@@ -95,11 +95,13 @@ public class PlayerController : MonoBehaviour
     {
         StateMachine.Initialize(IdleState);
 
+        // Set respawn position if available
         if (GameManager.Instance.RespawnPosition.HasValue)
         {
             transform.position = GameManager.Instance.RespawnPosition.Value;
         }
 
+        // Bind player to UI
         if (UIManager.Instance != null)
         {
             UIManager.Instance.BindPlayerToUI(this);
