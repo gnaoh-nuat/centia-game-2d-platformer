@@ -359,6 +359,7 @@ GameObject:
   - component: {fileID: 8792831367393921429}
   - component: {fileID: 7941733491510733899}
   - component: {fileID: 145596934361372449}
+  - component: {fileID: 824300269868095788}
   m_Layer: 6
   m_Name: Dis_Platform_01
   m_TagString: Untagged
@@ -448,3 +449,17 @@ MonoBehaviour:
   blinkSpeedDisappear: 0.1
   timeToRespawnWarning: 1.5
   blinkSpeedRespawn: 0.2
+  _clickSound: {fileID: 8300000, guid: 8f295461df4b57f4282856c9722565e3, type: 3}
+--- !u!114 &824300269868095788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8886932487825078679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f300120a268601e4b8a203b2e249bdcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _clickSound: {fileID: 8300000, guid: 8f295461df4b57f4282856c9722565e3, type: 3}

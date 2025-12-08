@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 9058980299104244998}
   - component: {fileID: 2314800608784909707}
   - component: {fileID: 7978915980851663867}
+  - component: {fileID: 7826106232770990807}
   m_Layer: 0
   m_Name: Jump_Trigger
   m_TagString: Untagged
@@ -129,6 +130,19 @@ AreaEffector2D:
   m_ForceTarget: 0
   m_Drag: 0
   m_AngularDrag: 0
+--- !u!114 &7826106232770990807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3895228400271502144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33633093dc5a1544b953fde2a7654089, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _clickSound: {fileID: 8300000, guid: 3a323a3e6d831534bb5a03f3e355f4ab, type: 3}
 --- !u!1 &4883856744732629580
 GameObject:
   m_ObjectHideFlags: 0

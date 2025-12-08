@@ -13,6 +13,8 @@ public class PlayerDashState : PlayerState
         base.Enter();
         //Debug.Log("Entered Dash State");
 
+        AudioManager.Instance.PlaySFX(player.DashSFX);
+
         player.PlayAnimation(player.AnimID_Dash);
 
         // Record the start time of the dash

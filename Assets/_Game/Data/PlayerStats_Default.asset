@@ -17,5 +17,4 @@ MonoBehaviour:
   MaxStamina: 100
   StaminaRegenRate: 15
   StaminaRegenDelay: 1
-  DoubleJumpStaminaCost: 15
-  DashStaminaCost: 15
+  DashStaminaCost: 35

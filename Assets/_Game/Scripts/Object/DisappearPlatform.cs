@@ -18,6 +18,8 @@ public class DisappearPlatform : MonoBehaviour
     private Collider2D parentCollider;
     private bool isProcessing = false;
 
+    [SerializeField] private AudioClip _clickSound;
+
     void Start()
     {
         childSprites = GetComponentsInChildren<SpriteRenderer>();
@@ -34,6 +36,7 @@ public class DisappearPlatform : MonoBehaviour
         if (collision.gameObject.CompareTag("Player") && !isProcessing)
         {
             StartCoroutine(DisappearRoutine());
+            AudioManager.Instance.PlaySFX(_clickSound);
         }
     }
 

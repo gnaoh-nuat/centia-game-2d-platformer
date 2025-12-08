@@ -309,9 +309,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 212c28a453ca5d245b3be275a2da1ca5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToBlink: 2
   timeToDisappear: 3
-  blinkSpeed: 0.1
+  timeToBlink: 2
+  blinkSpeedDisappear: 0.1
+  timeToRespawnWarning: 1.5
+  blinkSpeedRespawn: 0.2
+  _clickSound: {fileID: 8300000, guid: 8f295461df4b57f4282856c9722565e3, type: 3}
 --- !u!61 &895139039062968806
 BoxCollider2D:
   m_ObjectHideFlags: 0
