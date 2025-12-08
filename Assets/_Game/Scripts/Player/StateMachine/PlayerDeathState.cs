@@ -14,12 +14,17 @@ public class PlayerDeathState : PlayerState
         player.SetVelocityX(0);
         player.SetVelocityY(0);
 
-        //// Tắt vật lý để không bị rơi hoặc bị đẩy nữa (tùy game design)
-        //player.Rigidbody2D.bodyType = RigidbodyType2D.Kinematic;
-
-        //// Vô hiệu hóa Collider để không bị quái đánh thêm
-        //player.GetComponent<Collider2D>().enabled = false;
+        player.StartCoroutine(ReloadSceneRoutine());
 
         Debug.Log("GAME OVER");
+    }
+
+    private System.Collections.IEnumerator ReloadSceneRoutine()
+    {
+        yield return new WaitForSeconds(1.5f); // Chờ animation chết chạy xong
+
+        // Reload lại scene hiện tại
+        string currentScene = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+        SceneLoader.Instance.LoadScene(currentScene);
     }
 }

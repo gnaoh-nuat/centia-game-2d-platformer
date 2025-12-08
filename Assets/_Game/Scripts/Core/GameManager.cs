@@ -5,6 +5,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
+    public Vector2? RespawnPosition { get; private set; }
+
     private void Awake()
     {
         if (Instance == null)
@@ -26,6 +28,17 @@ public class GameManager : MonoBehaviour
             // Gọi SceneLoader để chuyển cảnh
             SceneLoader.Instance.LoadScene("MainMenu");
         }
+    }
+
+    public void UpdateCheckpoint(Vector2 position)
+    {
+        RespawnPosition = position;
+        Debug.Log($"Checkpoint Updated: {position}");
+    }
+
+    public void ClearCheckpoint()
+    {
+        RespawnPosition = null; // Dùng khi New Game
     }
 
     // Hàm thoát game

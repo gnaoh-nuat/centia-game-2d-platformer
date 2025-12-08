@@ -87,6 +87,11 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         StateMachine.Initialize(IdleState);
+
+        if (GameManager.Instance.RespawnPosition.HasValue)
+        {
+            transform.position = GameManager.Instance.RespawnPosition.Value;
+        }
     }
 
     private void OnEnable()
